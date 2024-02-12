@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-w70_lp-3pjq6am7p4bv-y0cby%ch&s3*tq=(3+v3hczr^g0*0!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-nick8735-magnuseventsv1-hyacjwab5jf.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = [
+    '8000-nick8735-magnuseventsv1-hyacjwab5jf.ws-eu108.gitpod.io',
+    '8000-nick8735-magnuseventsv1-ifr1g4rfja8.ws-eu108.gitpod.io',
+    # Add more hostnames if necessary
+]
+
 
 
 # Application definition
@@ -148,6 +153,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STAICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
