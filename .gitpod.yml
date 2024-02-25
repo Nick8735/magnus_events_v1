@@ -7,6 +7,7 @@ tasks:
 vscode:
   extensions:
     - ms-python.python
+    - ms-python.debugpy  # Add this line to include the ms-python.debugpy extension
     - formulahendry.auto-close-tag
     - eventyret.bootstrap-4-cdn-snippet
     - hookyqr.beautify
