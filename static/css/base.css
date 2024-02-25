@@ -5,12 +5,12 @@ html {
 }
 
 body {
-    background: url('/magnus_events_v1/media/background_image3.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: url('/magnus_events_v1/media/background_image3.jpg') no-repeat center top / 100% 50% fixed; /* Adjusted background property */
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
+
 
 /* from Bulma */
 .icon {
