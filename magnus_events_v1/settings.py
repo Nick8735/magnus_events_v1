@@ -31,7 +31,6 @@ ALLOWED_HOSTS = [
     '8000-nick8735-magnuseventsv1-hyacjwab5jf.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-ifr1g4rfja8.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-kadl8gniqvy.ws-eu108.gitpod.io',
-    # Add the new hostname here
     '8000-debug-nick8735-magnuseventsv1-kadl8gniqvy.ws-eu108.gitpod.io',
 ]
 
