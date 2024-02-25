@@ -27,12 +27,13 @@ SECRET_KEY = 'django-insecure-w70_lp-3pjq6am7p4bv-y0cby%ch&s3*tq=(3+v3hczr^g0*0!
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    # Add your existing hostnames here
     '8000-nick8735-magnuseventsv1-hyacjwab5jf.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-ifr1g4rfja8.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-kadl8gniqvy.ws-eu108.gitpod.io',
     '8000-debug-nick8735-magnuseventsv1-kadl8gniqvy.ws-eu108.gitpod.io',
+    '8000-nick8735-magnuseventsv1-9lmvnjio68i.ws-eu108.gitpod.io',  # Add the new domain here
 ]
+
 
 
 
