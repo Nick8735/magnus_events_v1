@@ -10,18 +10,46 @@
  {% endblock %}
 
  {% block content %}
- <div class="container">
-    <div class="row h-100">
-        <div class="col-7 col-md-6 my-auto">
-            <h1 class="display-4 logo-font text-black">
-                The collections are here
-             </h1>
-            <div class="my-5">
-                <h4>
-                    <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                </h4>
+     <div class="background-image-container" style="background: url('/media/background_image3.jpg') no-repeat center top;"></div>
+
+    <!-- Content container -->
+    <div class="content-container">
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Add your card content here -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Wedding</h5>
+                            <img src="/media/wedding.png" alt="" class="card-img-top" style="width: 300px; height: 200px;">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Wedding</h5>
+                            <img src="/media/party.jpg" alt="" cclass="card-img-top" style="width: 200px; height: 300px;">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Wedding</h5>
+                            <img src="/media/wedding.png" alt="" class="card-img-top">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more columns and cards as needed -->
             </div>
         </div>
     </div>
- </div>
+    
  {% endblock %}

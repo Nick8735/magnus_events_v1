@@ -1,15 +1,29 @@
 
 
-html {
+html, body {
     height: 100%;
+    margin: 0;
+    background: url('/magnus_events_v1/media/background_image3.jpg') no-repeat center top / cover fixed; /* Background image for the body */
+    color: #555;
+    font-family: 'Lato', sans-serif;
 }
 
-body {
-    background: url('/magnus_events_v1/media/background_image3.jpg') no-repeat center top / 100% 75% fixed; /* Adjusted background property */
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
+
+.background-image-container {
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    
 }
+
+
+.content-container {
+    position: relative;
+    z-index: 1;
+    margin: 5px;
+}
+
+/* Your other styles remain the same */
 
 
 /* from Bulma */

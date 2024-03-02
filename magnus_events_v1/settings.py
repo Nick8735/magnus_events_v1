@@ -31,8 +31,10 @@ ALLOWED_HOSTS = [
     '8000-nick8735-magnuseventsv1-ifr1g4rfja8.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-kadl8gniqvy.ws-eu108.gitpod.io',
     '8000-debug-nick8735-magnuseventsv1-kadl8gniqvy.ws-eu108.gitpod.io',
-    '8000-nick8735-magnuseventsv1-9lmvnjio68i.ws-eu108.gitpod.io',  # Add the new domain here
+    '8000-nick8735-magnuseventsv1-9lmvnjio68i.ws-eu108.gitpod.io',
+    '8000-nick8735-magnuseventsv1-q1374ahq59t.ws-eu108.gitpod.io',  # Add the new domain here
 ]
+
 
 
 
@@ -158,6 +160,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)  # Corrected spelling
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/workspace/magnus_events_v1/magnus_events_v1/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
