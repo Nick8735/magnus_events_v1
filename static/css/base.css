@@ -1,12 +1,5 @@
 
 
-html, body {
-    height: 100%;
-    margin: 0;
-    background: url('/magnus_events_v1/media/background_image3.jpg') no-repeat center top / cover fixed; /* Background image for the body */
-    color: #555;
-    font-family: 'Lato', sans-serif;
-}
 
 
 .background-image-container {
@@ -21,11 +14,22 @@ html, body {
     position: relative;
     z-index: 1;
     margin: 5px;
-}
+    margin-top: -400px;
+    }
 
-/* Your other styles remain the same */
+    .card-img-top {
+        padding-right: 15px; 
+        padding-bottom: 15px;
+        width: 400px; 
+        height: 300px; 
+              
+    }
 
+    .btn{
+        background-color: black;
+        border: #000;
 
+    }
 /* from Bulma */
 .icon {
     align-items: center;

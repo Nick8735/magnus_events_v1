@@ -161,6 +161,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)  # Corrected spelling
 
+STATIC_ROOT = '/absolute/path/to/static/root/'
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = '/workspace/magnus_events_v1/magnus_events_v1/media/'
 

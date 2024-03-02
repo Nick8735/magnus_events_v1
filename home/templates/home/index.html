@@ -1,55 +1,104 @@
- {% extends "base.html" %}
- {% load static %}
+{% extends "base.html" %}
+{% load static %}
 
- {% block page_header %}
-    <div class="container header-container">
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="background-image-container" style="background: url('/media/background_image3.jpg') no-repeat center top;"></div>
+
+<!-- Content container -->
+<div class="content-container">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
- {% endblock %}
-
- {% block content %}
-     <div class="background-image-container" style="background: url('/media/background_image3.jpg') no-repeat center top;"></div>
-
-    <!-- Content container -->
-    <div class="content-container">
-        <div class="container mt-5">
-            <div class="row">
-                <!-- Add your card content here -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Wedding</h5>
-                            <img src="/media/wedding.png" alt="" class="card-img-top" style="width: 300px; height: 200px;">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- Add your card content here -->
+            <div class="col-md-4 text-center"> <!-- Added text-center class -->
+                <div class="card">
+                    <div class="card-body text-center"> <!-- Added text-center class -->
+                        <h5 class="card-title">Wedding Event</h5>
+                        <img src="/media/wedding.png" alt="" class="card-img-top">
+                        
+                        <div class="d-flex justify-content-center"> <!-- Added d-flex and justify-content-center classes -->
                             <a href="" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Wedding</h5>
-                            <img src="/media/party.jpg" alt="" cclass="card-img-top" style="width: 200px; height: 300px;">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Wedding</h5>
-                            <img src="/media/wedding.png" alt="" class="card-img-top">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add more columns and cards as needed -->
             </div>
+            <div class="col-md-4 text-center"> <!-- Added text-center class -->
+                <div class="card">
+                    <div class="card-body text-center"> <!-- Added text-center class -->
+                        <h5 class="card-title">Birthday Party!</h5>
+                        <img src="/media/birthday_cake_2.png" alt="" class="card-img-top">
+                        
+                        <div class="d-flex justify-content-center"> <!-- Added d-flex and justify-content-center classes -->
+                            <a href="" class="btn btn-primary" >Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center"> <!-- Added text-center class -->
+                <div class="card">
+                    <div class="card-body text-center"> <!-- Added text-center class -->
+                        <h5 class="card-title">Professional Event</h5>
+                        <img src="/media/office_event.png" alt="" class="card-img-top">
+                        
+                        <div class="d-flex justify-content-center"> <!-- Added d-flex and justify-content-center classes -->
+                            <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more columns and cards as needed -->
         </div>
     </div>
-    
- {% endblock %}
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Add your card content here -->
+            <div class="col-md-4 text-center"> <!-- Added text-center class -->
+                <div class="card">
+                    <div class="card-body text-center"> <!-- Added text-center class -->
+                        <h5 class="card-title">Social Event</h5>
+                        <img src="/media/dance_2.png" alt="" class="card-img-top">
+                       
+                        <div class="d-flex justify-content-center"> <!-- Added d-flex and justify-content-center classes -->
+                            <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center"> <!-- Added text-center class -->
+                <div class="card">
+                    <div class="card-body text-center"> <!-- Added text-center class -->
+                        <h5 class="card-title">Placeholder</h5>
+                        <img src="/media/birthday_cake_2.png" alt="" class="card-img-top">
+                      
+                        <div class="d-flex justify-content-center"> <!-- Added d-flex and justify-content-center classes -->
+                            <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center"> <!-- Added text-center class -->
+                <div class="card">
+                    <div class="card-body text-center"> <!-- Added text-center class -->
+                        <h5 class="card-title">Store</h5>
+                        <img src="/media/store.png" alt="" class="card-img-top">
+                       
+                        <div class="d-flex justify-content-center"> <!-- Added d-flex and justify-content-center classes -->
+                            <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more columns and cards as needed -->
+        </div>
+    </div>
+
+</div>
+{% endblock %}
