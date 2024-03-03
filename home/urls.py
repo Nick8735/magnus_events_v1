@@ -1,8 +1,8 @@
 from django.contrib import admin
 from django.urls import path
-from . import views
+from home.views import index, wedding_view
 
 urlpatterns = [
-    path('', views.index, name='home'),
-  
+    path('', index, name='home'),
+    path('wedding/', wedding_view, name='wedding'),
 ]

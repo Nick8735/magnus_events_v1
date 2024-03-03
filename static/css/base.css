@@ -17,6 +17,11 @@
     margin-top: -400px;
     }
 
+.card-img-left {
+    float: left;
+    margin-right: 10px;
+}
+
     .card-img-top {
         padding-right: 15px; 
         padding-bottom: 15px;
