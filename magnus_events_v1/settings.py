@@ -33,7 +33,8 @@ ALLOWED_HOSTS = [
     '8000-debug-nick8735-magnuseventsv1-kadl8gniqvy.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-9lmvnjio68i.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-q1374ahq59t.ws-eu108.gitpod.io',  # Add the new domain here
-    '8000-nick8735-magnuseventsv1-ef4ynzj8862.ws-eu108.gitpod.io'
+    '8000-nick8735-magnuseventsv1-ef4ynzj8862.ws-eu108.gitpod.io',
+    '8000-nick8735-magnuseventsv1-hpq6vdsqbbe.ws-eu108.gitpod.io',
 ]
 
 
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'debug_toolbar',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -62,13 +64,15 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'allauth.account.middleware.AccountMiddleware',  # Add this line
+    'allauth.account.middleware.AccountMiddleware',  
 ]
+
 ROOT_URLCONF = 'magnus_events_v1.urls'
 
 TEMPLATES = [
@@ -173,3 +177,7 @@ MEDIA_ROOT = '/workspace/magnus_events_v1/magnus_events_v1/media/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+DEBUG_TOOLBAR_CONFIG = {
+    'SHOW_TOOLBAR_CALLBACK': lambda request: DEBUG,
+}
