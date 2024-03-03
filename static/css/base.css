@@ -25,6 +25,11 @@
               
     }
 
+    header {
+        background-color: #c0c0c0;
+    
+    }
+
     .btn{
         background-color: black;
         border: #000;
