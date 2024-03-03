@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
+  
 
 ]
 
@@ -66,8 +67,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',  # Add this line
 ]
-
 ROOT_URLCONF = 'magnus_events_v1.urls'
 
 TEMPLATES = [
@@ -162,7 +163,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)  # Corrected spelling
 
-STATIC_ROOT = '/absolute/path/to/static/root/'
+STATIC_ROOT = '/workspace/magnus_events_v1/staticfiles/'
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = '/workspace/magnus_events_v1/magnus_events_v1/media/'
