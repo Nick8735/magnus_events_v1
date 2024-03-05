@@ -1,18 +1,15 @@
 from django.shortcuts import render
-from .models import Item
+from .models import Product
 
-def index(request):
-    # Your index view logic here
-    items = Item.objects.all()  # Example query to retrieve items
-    context = {
-        'items': items
-    }
-    return render(request, 'home/index.html', context)
+# Create your views here.
 
-def wedding_view(request):
-    # Your wedding view logic here
-    items = Item.objects.filter(category='wedding')  # Example query to retrieve wedding items
+def all_products(request):
+    """ A view to show all products, including sorting and search queries """
+
+    products = Product.objects.all()
+
     context = {
-        'items': items
+        'products': products,
     }
-    return render(request, 'home/wedding.html', context)
+
+    return render(request, '/wedding.html', context)
