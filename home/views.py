@@ -10,9 +10,8 @@ def index(request):
     return render(request, 'home/index.html', context)
 
 def wedding_view(request):
-    # Your wedding view logic here
-    items = Item.objects.filter(category='wedding')  # Example query to retrieve wedding items
-    context = {
-        'items': items
-    }
+    items = Item.objects.filter(category='wedding')
+    print(items)  # Add this line to print items
+    context = {'items': items}
     return render(request, 'home/wedding.html', context)
+
