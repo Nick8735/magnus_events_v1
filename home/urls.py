@@ -1,8 +1,9 @@
-from django.contrib import admin
 from django.urls import path
-from home.views import index, wedding_view
+from . import views
 
 urlpatterns = [
-    path('', index, name='home'),
-    path('wedding/', wedding_view, name='wedding'),
+    path('', views.index, name='home'),
+    # Assuming you have a view for wedding within the home app
+    path('wedding/', views.wedding_view, name='wedding'),
+    # Add more URL patterns as needed
 ]
