@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
     '8000-nick8735-magnuseventsv1-q1374ahq59t.ws-eu108.gitpod.io',  # Add the new domain here
     '8000-nick8735-magnuseventsv1-ef4ynzj8862.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-hpq6vdsqbbe.ws-eu108.gitpod.io',
+    '8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu110.gitpod.io',
 ]
 
 

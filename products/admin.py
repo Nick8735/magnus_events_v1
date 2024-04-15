@@ -7,7 +7,7 @@ class ProductAdmin(admin.ModelAdmin):
         'sku',
         'name',
         'category',
-        'description',  # Corrected capitalization to match field name
+        'description',
         'price',
     )
 
@@ -19,6 +19,4 @@ class CategoryAdmin(admin.ModelAdmin):
         'name',
     )
 
-
-admin.site.register(Product, ProductAdmin)
-admin.site.register(Category, CategoryAdmin)
+admin.site.register(Product)

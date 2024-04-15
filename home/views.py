@@ -13,5 +13,5 @@ def wedding_view(request):
     items = Item.objects.filter(category='wedding')
     print(items)  # Add this line to print items
     context = {'items': items}
-    return render(request, 'home/wedding.html', context)
+    return render(request, 'products/wedding.html', context)
 

@@ -1,13 +1,11 @@
-# products/views.py
-
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import Product
 
 def all_products(request):
-    # Your logic to display all products
-    return HttpResponse("All Products")
+    products = Product.objects.all()
+    return render(request, 'products/all_products.html', {'products': products})
 
 def wedding_products(request):
-    # Your logic to display wedding products
-    # Assuming you have a template named 'wedding.html' in the 'products' app's 'templates' directory
-    return render(request, 'home/wedding.html')
+    products = Product.objects.filter(category__name='wedding')
+    context = {'products': products}
+    return render(request, 'products/wedding.html', context)
