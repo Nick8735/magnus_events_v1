@@ -2,19 +2,23 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                {{ products }}
-            </div>
+<div class="container">
+    <div class="row">
+        {% for product in products %}
+        <div class="col">
+            <h3>{{ product.name }}</h3>
+            <p>{{ product.description }}</p>
+            <p>Price: {{ product.price }}</p>
         </div>
+        {% endfor %}
     </div>
+</div>
 {% endblock %}

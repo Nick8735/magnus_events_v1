@@ -1,8 +1,6 @@
 from django.db import models
 
-
 class Category(models.Model):
-
     class Meta:
         verbose_name_plural = 'Categories'
         
@@ -15,7 +13,7 @@ class Category(models.Model):
     def get_friendly_name(self):
         return self.friendly_name
 
-class Product(models.Model):
+class Product(models.Model):  # Change from 'Products' to 'Product'
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=50, null=False, blank=False)
@@ -24,3 +22,4 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+

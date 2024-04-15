@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Product, Category
+from .models import Product, Category  # Update the import statement
 
 # Register your models here.
-class ProductAdmin(admin.ModelAdmin):
+class ProductAdmin(admin.ModelAdmin):  # Change the class name to ProductsAdmin
     list_display = (
         'sku',
         'name',
@@ -19,4 +19,5 @@ class CategoryAdmin(admin.ModelAdmin):
         'name',
     )
 
-admin.site.register(Product)
+admin.site.register(Product, ProductAdmin)  # Register Products model with ProductsAdmin
+
