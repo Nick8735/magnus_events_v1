@@ -1,45 +1,15 @@
-
-
-
-
-.background-image-container {
-    height: 100vh;
-    position: relative;
-    z-index: -1;
-    
+html {
+    height: 100%;
 }
 
-
-.content-container {
-    position: relative;
-    z-index: 1;
-    margin: 5px;
-    margin-top: -400px;
-    }
-
-.card-img-left {
-    float: left;
-    margin-right: 10px;
+body {
+    background: url('/magnus_events_v1/media/background_image3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Lato';
 }
 
-    .card-img-top {
-        padding-right: 15px; 
-        padding-bottom: 15px;
-        width: 400px; 
-        height: 300px; 
-              
-    }
-
-    header {
-        background-color: #c0c0c0;
-    
-    }
-
-    .btn{
-        background-color: black;
-        border: #000;
-
-    }
 /* from Bulma */
 .icon {
     align-items: center;
@@ -51,40 +21,7 @@
 
 .logo-font {
     text-transform: uppercase;
-    
 }
-
-
-.logo-all {
-    display: flex;
-    align-items: center; /* Align items vertically */
-    border: black 2px solid;
-    border-radius: 50%;
-    padding: 10px;
-}
-
-.enhance {
-    display: inline-block;
-    width: 40px; /* Adjust the width and height to control the size of the circle */
-    height: 40px;
-    line-height: 40px; /* Should match the height for vertical centering */
-    border-radius: 50%; /* This creates a circle */
-    background-color: black; /* Sets the background color to black */
-    text-align: center; /* Centers the letter horizontally */
-    border: 2px solid black;
-    color: white;
-    margin-right: 10px; /* Add margin for spacing */
-}
-
-.font_enhance {
-    font-family: "Moon Dance", cursive;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block; /* Ensures proper alignment */
-    font-size: 15px;
-    margin-left: -9px;
-}
-
 
 .main-logo-link {
     width: fit-content;
@@ -99,6 +36,19 @@
 .btn-black {
     background: black;
     color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
 }
 
 .shop-now-button:hover,
@@ -119,7 +69,38 @@
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
 
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
 
 /* -------------------------------- Media Queries */
 
@@ -144,13 +125,14 @@
         padding-top: 164px;
     }
 }
+
+/* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-    .logo-all {
-        justify-content: center; /* Center items horizontally on smaller screens */
+    .header-container {
+        padding-top: 116px;
     }
 
-    .col-lg-4 {
-        flex: 0 0 100%; /* Make columns full-width on smaller screens */
-        max-width: 100%; /* Ensure columns don't exceed container width */
+    body {
+        height: calc(100vh - 116px);
     }
 }
