@@ -20,9 +20,10 @@ from django.conf.urls.static import static
 import debug_toolbar
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+        path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
-    path('', include('home.urls')),  # Assuming you have a home app with its own URLs
-    path('products/', include('products.urls')),  # Include the products app URLs
+    path('', include('home.urls')),
+    path('products/', include('products.urls')),
+    path('bag/', include('bag.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
