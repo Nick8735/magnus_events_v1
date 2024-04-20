@@ -174,7 +174,7 @@ STATIC_ROOT = '/workspace/magnus_events_v1/staticfiles/'
 
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/workspace/magnus_events_v1/magnus_events_v1/media/'
+MEDIA_ROOT = '/workspace/magnus_events_v1/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
