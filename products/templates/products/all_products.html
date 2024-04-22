@@ -25,15 +25,9 @@
                     {% for product in products %}
                         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4"> <!-- Adjusted from col-lg-3 and col-xl-3 to col-lg-4 and col-xl-4 -->
                             <div class="card h-100 border-0">
-                                {% if product.image %}
                                 <a href="">
-                                    <img class="card-img-top img-fluid" src="/media/bronze_wedding.png" alt="">
+                                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
-                                {% else %}
-                                <a href="">
-                                    <img class="card-img-top img-fluid" src="/media/silver_wedding.png" alt="">
-                                </a>
-                                {% endif %}
                                 <div class="card-body pb-0">
                                    <h3 class="mb-0">{{ product.name }}</h3>
                                    <p>{{ product.description }}</p>
@@ -61,3 +55,4 @@
         </div>
     </div>
 {% endblock %}
+

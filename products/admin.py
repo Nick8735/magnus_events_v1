@@ -1,23 +1,27 @@
 from django.contrib import admin
-from .models import Product, Category  # Update the import statement
+from django.utils.safestring import mark_safe  # Add this import
+from .models import Product, Category
 
-# Register your models here.
-class ProductAdmin(admin.ModelAdmin):  # Change the class name to ProductsAdmin
+class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
         'name',
         'category',
         'description',
         'price',
+        'display_image',
     )
 
     ordering = ('sku',)
 
-class CategoryAdmin(admin.ModelAdmin):
-    list_display = (
-        'friendly_name',
-        'name',
-    )
+    def display_image(self, obj):
+        if obj.image:
+            return mark_safe('<img src="{0}" style="max-width:100px; max-height:100px;"/>'.format(obj.image.url))
+        else:
+            return 'No Image'
 
-admin.site.register(Product, ProductAdmin)  # Register Products model with ProductsAdmin
+    display_image.allow_tags = True
+    display_image.short_description = 'Image'
 
+# Register only the Product model in the admin interface
+admin.site.register(Product, ProductAdmin)
