@@ -8,15 +8,17 @@ def all_products(request):
     context = {
         'products': products,
     }
-    return render(request, 'products/all_products.html', {'products': products})
+    return render(request, 'products/all_products.html', context)
 
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
+    # Retrieve a specific product by its ID (product_id)
     product = get_object_or_404(Product, pk=product_id)
 
     context = {
-        'products': products,
+        'product': product,  # Use 'product' instead of 'products' here
     }
 
     return render(request, 'products/product_detail.html', context)
+

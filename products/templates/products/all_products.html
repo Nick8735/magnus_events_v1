@@ -23,29 +23,29 @@
                 <div class="row mt-1 mb-2"></div>
                 <div class="row">
                     {% for product in products %}
-                        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4"> <!-- Adjusted from col-lg-3 and col-xl-3 to col-lg-4 and col-xl-4 -->
-                            <div class="card h-100 border-0">
-                                <a href="">
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                        <div class="card h-100 border-0">
+                            <div class="card-body pb-0">
+                                <h3 class="mb-0">{{ product.name }}</h3> <!-- Place product name here -->
+                                <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
-                                <div class="card-body pb-0">
-                                   <h3 class="mb-0">{{ product.name }}</h3>
-                                   <p>{{ product.description }}</p>
-                                </div>
-                                <div class="card-footer bg-white pt-0 border-0 text-left">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                                            {% if product.rating %}
-                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                                            {% else %}
-                                                <small class="text-muted">No Rating</small>
-                                            {% endif %}
-                                        </div>
+                            </div>
+                            <div class="card-footer bg-white pt-0 border-0 text-left">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                        {% if product.rating %}
+                                            <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                                        {% else %}
+                                            <small class="text-muted"></small>
+                                        {% endif %}
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    
                         {% if forloop.counter|divisibleby:3 %}
                             <div class="w-100 d-none d-lg-block d-xl-none"></div> <!-- Add a clearfix for every third column in LG and XL breakpoints -->
                         {% endif %}
