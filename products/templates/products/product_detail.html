@@ -45,6 +45,13 @@
                     <p><strong>Item 2:</strong> {{ product.item_detail_1 }}</p>
                     <p><strong>Item 3:</strong> {{ product.item_detail_2 }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">£{{ product.price }}</p>
+                    {% if product.category %}
+                    <p class="small mt-1 mb-0">
+                        <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                            <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                        </a>
+                    </p>
+                    {% endif %}
                 </div>
             </div>
         </div>
