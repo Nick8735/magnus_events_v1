@@ -10,6 +10,9 @@
 {% endblock %}
 
 {% block content %}
+<br>
+<br>
+<br>
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
@@ -28,7 +31,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
-                    <p class="mb-5 ">{{ product.name }}</p>
+                    <p class="mb-5 display-4">{{ product.name }}</p>
                    
                     {% if product.rating %}
                         <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
@@ -41,7 +44,7 @@
                     <p><strong>Item 1:</strong> {{ product.item }}</p>
                     <p><strong>Item 2:</strong> {{ product.item_detail_1 }}</p>
                     <p><strong>Item 3:</strong> {{ product.item_detail_2 }}</p>
-                    <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                    <p class="lead mb-0 text-left font-weight-bold">£{{ product.price }}</p>
                 </div>
             </div>
         </div>
