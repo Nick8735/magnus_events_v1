@@ -1,39 +1,38 @@
-<div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
-                <a href="% url 'products' %" class="dropdown-item">All Products</a>
-            </div>
-        </li>
+<ul class="navbar-nav w-auto mx-auto">
+    <li class="nav-item dropdown">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            All Products
+        </a>
+        <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <a href="{% url 'products' %}?category=price" class="dropdown-item">By Price</a>
+            <a href="{% url 'products' %}?category=rating" class="dropdown-item">By Rating</a>
+            <a href="{% url 'products' %}?category=category" class="dropdown-item">By Category</a>
+            <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+        </div>
+    </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Packages
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Wedding</a>
-                <a href="" class="dropdown-item">Birthday</a>
-                <a href="" class="dropdown-item">Professional</a>
-                <a href="" class="dropdown-item">Social</a>
-                <a href="" class="dropdown-item">Marquee</a>
-            </div>
-        </li>
+    <li class="nav-item dropdown">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="packages-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Packages
+        </a>
+        <div class="dropdown-menu border-0" aria-labelledby="packages-link">
+            <a href="{% url 'products' %}?category=W1,W2,W3" class="dropdown-item">Wedding</a>
+            <a href="{% url 'products' %}?category=B1,B2,B3" class="dropdown-item">Birthday</a>
+            <a href="{% url 'products' %}?category=P1,P2,P3" class="dropdown-item">Corporate</a>
+            <a href="{% url 'products' %}?category=S1,S2,S3" class="dropdown-item">Social</a>
+            <a href="{% url 'products' %}?category=M1,M2,M3" class="dropdown-item">Marquee</a>
+        </div>
+    </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Store
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Balloons</a>
-                <a href="" class="dropdown-item">Streamers</a>
-                <a href="" class="dropdown-item">Cakes</a>
-                <a href="" class="dropdown-item">Stationary</a>
+            <div class="dropdown-menu border-0" aria-labelledby="store-link">
+                <a href="{% url 'products' %}?category=balloons" class="dropdown-item">Balloons</a>
+                <a href="{% url 'products' %}?category=streamer" class="dropdown-item">Streamers</a>
+                <a href="{% url 'products' %}?category=cakes" class="dropdown-item">Cakes</a>
+                <a href="{% url 'products' %}?category=stationary" class="dropdown-item">Stationary</a>
             </div>
         </li>
 
