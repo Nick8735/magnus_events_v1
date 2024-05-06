@@ -36,6 +36,7 @@ ALLOWED_HOSTS = [
     '8000-nick8735-magnuseventsv1-ef4ynzj8862.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-hpq6vdsqbbe.ws-eu108.gitpod.io',
     '8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu110.gitpod.io',
+    '8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',   
 ]
 
 
@@ -92,6 +93,7 @@ TEMPLATES = [
                 'django.template.context_processors.request', # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'bag.contexts.bag_contents',
             ],
         },
     },
@@ -184,3 +186,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': lambda request: DEBUG,
 }
+
+FREE_DELIVERY_THRESHOLD = 50
+STANDARD_DELIVERY_PERCENTAGE = 10
