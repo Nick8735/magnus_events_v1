@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-w70_lp-3pjq6am7p4bv-y0cby%ch&s3*tq=(3+v3hczr^g0*0!
 DEBUG = True
 
 ALLOWED_HOSTS = [ 
-'magnus-events.herokuapp.com',
+'magnus-events-f6d64cf0d4be.herokuapp.com',
 'localhost', 
 '8080-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
 '8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',]
