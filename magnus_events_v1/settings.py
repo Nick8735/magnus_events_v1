@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-import os
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,10 +27,11 @@ SECRET_KEY = 'django-insecure-w70_lp-3pjq6am7p4bv-y0cby%ch&s3*tq=(3+v3hczr^g0*0!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ 'magnus-events.herokuapp.com', 'localhost', '8080-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',]
-
-
-
+ALLOWED_HOSTS = [ 
+'magnus-events.herokuapp.com',
+'localhost', 
+'8080-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
+'8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',]
 
 
 # Application definition
@@ -54,9 +54,6 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'crispy_forms',
-    
-  
-
 ]
 
 MIDDLEWARE = [
