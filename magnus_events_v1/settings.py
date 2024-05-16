@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
+if os.path.isfile('env.py'):
+    import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,11 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 ALLOWED_HOSTS = [ 
 'magnus-events-f6d64cf0d4be.herokuapp.com',
@@ -33,7 +35,9 @@ ALLOWED_HOSTS = [
 '8080-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
 '8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io'
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -139,6 +143,7 @@ else:
         }
     }
 
+print(DATABASES)
 
 
 # Password validation
