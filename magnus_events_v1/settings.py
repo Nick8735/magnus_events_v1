@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'c$&q^7+#j!c%d*-kqz*dm$s$h_oev((5w@z_)((c-i-s349^fc')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEVELOPMENT')
 
 ALLOWED_HOSTS = [ 
 'magnus-events-f6d64cf0d4be.herokuapp.com',
