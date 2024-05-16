@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
@@ -33,10 +33,13 @@ ALLOWED_HOSTS = [
 'magnus-events-f6d64cf0d4be.herokuapp.com',
 'localhost', 
 '8080-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
-'8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',]
+'8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
+'8000-nick8735-magnuseventsv1-is68oes4n04.ws-eu111.gitpod.io',
+]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io'
+    'https://8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
+    'hhttps://8000-nick8735-magnuseventsv1-is68oes4n04.ws-eu111.gitpod.io/bag/add/2/',
 ]
 # Application definition
 
@@ -56,6 +59,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+   
     
         # Other apps
     'crispy_forms',
@@ -83,7 +87,8 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
-            os.path.join(BASE_DIR, 'templates', 'allauth')
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
+            os.path.join(BASE_DIR, 'path_to_bootstrap4_templates'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -209,10 +214,6 @@ if 'USE_AWS' in os.environ:
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-DEBUG_TOOLBAR_CONFIG = {
-    'SHOW_TOOLBAR_CALLBACK': lambda request: DEBUG,
-}
 
 # Stripe
 FREE_DELIVERY_THRESHOLD = 50
