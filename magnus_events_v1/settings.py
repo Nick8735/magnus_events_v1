@@ -40,6 +40,7 @@ ALLOWED_HOSTS = [
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
     'hhttps://8000-nick8735-magnuseventsv1-is68oes4n04.ws-eu111.gitpod.io/bag/add/2/',
+    'https://magnus-events-f6d64cf0d4be.herokuapp.com/',
 ]
 # Application definition
 
