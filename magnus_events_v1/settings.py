@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
 '8080-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
 '8000-nick8735-magnuseventsv1-77r82wo8ix6.ws-eu111.gitpod.io',
 '8000-nick8735-magnuseventsv1-is68oes4n04.ws-eu111.gitpod.io',
+'8000-nick8735-magnuseventsv1-571ymlc6xk5.ws-eu114.gitpod.io',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
