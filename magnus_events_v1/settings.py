@@ -167,7 +167,6 @@ STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')  # Changed to load from e
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')  # Changed to load from environment variable
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')    # Changed to load from environment variable
 
-
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = 'magnusevents@example.com'
