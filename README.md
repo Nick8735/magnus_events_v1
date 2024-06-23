@@ -308,18 +308,15 @@ Wireframes created using balsamiq.
 
 Schema to show tables in database along with their relation to each other, also included is the allauth-user schema to show custom tables relationship.
 
-<img src="documentation/db_schema/db-schema.png">
+<img src="documentation/readme_images/db_model.png">
 <br><br>
 
 ### Styling
 
- A Minimalist color scheme helps direct the viewer's attention to the products themselves. Without overly vibrant or distracting colors, the products take center stage, allowing potential customers to focus on their features and details. Minimalist color palettes are often associated with modern design and a clean, sophisticated aesthetic.  It aids in making the website look clean, organized, and well-curated.
+A plain background enables the images to stand out and attract customer attention. The hero image has been placed to provide a calming effect while also referencing some of the selling points of the site. Planning events can be a stressful experience, which highlights the importance of having a calm and cohesive styling for the site.
 
- Ubuntu was chosen as the font-family for the website as the Ubuntu font is a versatile typeface that balances readability with a modern, friendly aesthetic. Its widespread use in the Ubuntu operating system and beyond attests to its popularity and effectiveness in digital communication.
+All images were created using an AI generator [MidJourney](https://www.midjourney.com/home). The images were cycled multiple times to find the best ones for the site and to ensure that the aesthetics were followed.
 
- The background imagery for both the homepage and authentication pages was crafted using [Ideogram](https://ideogram.ai/), an advanced AI-powered design tool. This deliberate choice reflects a commitment to a distinctive visual identity, setting our website apart with a unique and memorable aesthetic.
-
- The product images featured on our website were carefully curated from [Forbidden Planet](https://forbiddenplanet.com/), a renowned source for high-quality collectibles, gifts, and comic books. This deliberate choice ensures that our customers have access to authentic and sought-after merchandise from a reputable and trusted supplier.
  <br><br>
 
  ## Features
@@ -328,80 +325,47 @@ Schema to show tables in database along with their relation to each other, also 
 
  #### Navbar
 
-The website's navigation comprises two key elements: the top navigation and the main navigation. The top navigation, depicted below, features essential functionalities. Visitors can access the site's logo, conduct product searches using the search bar, and either "Register" or "Login" via the "My Account" icon. Additionally, users can easily view the total number of items in their shopping bag. Once signed in, the options available in the "My Account" dropdown menu vary based on the user's level. Shop Owners/Administrators have access to "Product Management" and "Enquiries", while shoppers can navigate to "My Profile" or "Contact Us". Both user types possess the ability to log out from the "My Account" dropdown.
-
-The second component, the main navigation, empowers visitors to explore various product categories. This component is accessible through the hamburger icon on mobile devices. This navigation system and all of its constituent elements have been meticulously designed to be fully responsive, as exemplified by the accompanying screenshots.
+- Top Navigation Overview: The website's top navigation is designed to provide essential functionalities that enhance user experience and accessibility. Located prominently at the top of the page, it includes vital elements such as the site logo, a search bar for product queries, and options for user account management. Visitors can easily identify and interact with these features, facilitating seamless navigation throughout the site. A notable feature is the "My Account" icon, offering options for both registration and login. Additionally, users can monitor their shopping experience by viewing the number of items in their shopping bag directly from the top navigation, ensuring convenience and efficiency in browsing and purchasing products.
 
 <details>
 <summary>Navbar - Desktop</summary>
 <br>
-<img src="documentation/readme_images/navbar-desktop.png">
+<img src="documentation/readme_images/nav_bar.png">
 </details>
+
+- User-Specific Dropdown Menu: Upon logging in, users encounter a dropdown menu within the "My Account" section that caters to their specific roles and needs. For Shop Owners/Administrators, this menu provides access to critical tools like "Product Management", empowering them to manage inventory.
+
 <details>
 <summary>Navbar - Mobile</summary>
 <br>
-<img src="documentation/readme_images/navbar-mobile.png">
+<img src="documentation/readme_images/mobile_nav_bar.png">
 </details>
+
+- Logout Functionality: Both Shop Owners/Administrators and shoppers benefit from a straightforward logout process integrated into the "My Account" dropdown menu. This feature allows users to securely end their sessions when they have completed their tasks or wish to exit the site. The logout functionality enhances security by ensuring that user sessions are properly managed and terminated as needed. This contributes to a user-friendly experience where individuals can navigate the site confidently, knowing they have convenient access to essential account management tools and the ability to securely log out when necessary.
+
 <details>
 <summary>My Account - Logged out</summary>
 <br>
-<img src="documentation/readme_images/my-account-logged-out.png">
-</details>
-<details>
-<summary>My Account - Shopper</summary>
-<br>
-<img src="documentation/readme_images/my-account-shopper.png">
-</details>
-<details>
-<summary>My Account - Shop Owner/Administrator</summary>
-<br>
-<img src="documentation/readme_images/my-account-admin.png">
+<img src="documentation/readme_images/logout.png">
 </details>
 
-This deliberate design ensures that visitors can seamlessly and intuitively navigate the site, regardless of their device or screen size, enhancing their overall browsing experience.
+- This deliberate design ensures that visitors can seamlessly and intuitively navigate the site, regardless of their device or screen size, enhancing their overall browsing experience.
 <br><br>
 
 #### Footer
 
-The footer is a consistent element present on every page of the website. It serves as a valuable navigation tool for mobile users, providing direct access to the homepage, especially since the navbar logo may not be easily accessible on smaller screens.
+- The footer is strategically positioned on specific areas of the site where users may need access, ensuring it blends seamlessly with the site's aesthetic and enhances user experience. Prior to its placement, careful consideration was given to maintaining the site's visual appeal and ensuring intuitive navigation.
 
-Within the footer, users will find a concise "About Us" section, offering a brief overview of the store's mission or purpose. Additionally, there are links to social media accounts, allowing users to connect with the brand on various platforms and stay updated with the latest news and promotions.
+- within the footer, users will discover concise yet pertinent information directing them to relevant social media platforms associated with the website. This feature allows users to connect with the site's community and stay updated on related news and updates.
 
-A noteworthy disclaimer is also included, informing users that any payments processed through Stripe are conducted in test mode. This ensures transparency and sets clear expectations for users engaging in transactions on the site.
+- Additionally, an important disclaimer is included in the footer, notifying users that all payments processed through Stripe are conducted in test mode. This transparency sets clear expectations for users engaging in transactions on the site, ensuring they understand the operational status of payment processing.
 
-Overall, the footer serves as a well-structured and informative section, enhancing user experience by providing easy access to key information and navigation options, while also reinforcing trust and transparency in the payment process.
 
 <details>
 <summary>Footer - Desktop</summary>
 <br>
-<img src="documentation/readme_images/footer-desktop.png">
+<img src="/workspace/magnus_events_v1/documentation/readme_images/footer.png">
 </details>
-<details>
-<summary>Footer - Mobile</summary>
-<br>
-<img src="documentation/readme_images/footer-mobile.png">
-</details>
-<br><br>
-
-#### Modal
-
-The inclusion of modals is a deliberate design choice implemented in scenarios where a delete action is initiated by the user. This feature serves as a protective measure to mitigate the risk of accidental deletions.
-
-When a user clicks on a delete button, a modal window is triggered, prompting the user to confirm their intention to proceed with the deletion. This additional step acts as a safeguard, providing users with a final opportunity to reconsider before committing to the action.
-
-By incorporating modals in this context, the website prioritizes user experience and safety, ensuring that critical operations, such as deletions, are deliberate and intentional, thereby reducing the likelihood of unintended consequences.
-
-<details>
-<summary>Modal - Delete Product</summary>
-<br>
-<img src="documentation/readme_images/modal-delete-product.png">
-</details>
-<details>
-<summary>Modal - Delete Review</summary>
-<br>
-<img src="documentation/readme_images/modal-delete-review.png">
-</details>
-<br><br>
 
 #### Toasts
 
@@ -419,14 +383,16 @@ Provides informative messages that do not require immediate action from the user
 4. Warning Toast:
 Warns the user about a situation that may require their attention. Accented in yellow.
 
-#### Favicon 
+#### Logo 
 
-The website's favicon, the small icon displayed in the browser tab, was created by cropping the initial section of the navbar logo. This customized favicon was generated using the online tool available at [Favicon](https://favicon.io/). This distinctive icon enhances brand recognition and provides a visual representation of the website for users navigating through multiple browser tabs.
+The Logo 
+
+The logo was selected for its strategic use of bold text to emphasize "Magnus" within "Magnus Events." This choice enhances brand recognition and memorability by creating a clear visual hierarchy and ensuring readability across various mediums. It differentiates the brand from competitors while making a strong and lasting impression on viewers.
 
 <details>
-<summary>Favicon</summary>
+<summary>Logo</summary>
 <br>
-<img src="documentation/readme_images/favicon.png">
+<img src="documentation/readme_images/logo.png">
 </details>
 <br><br>
 
@@ -437,181 +403,107 @@ The homepage has a minimalist design, featuring a tagline that encapsulates the 
 <details>
 <summary>Homepage - Desktop</summary>
 <br>
-<img src="documentation/readme_images/homepage-desktop.png">
+<img src="documentation/readme_images/homepage.png">
 </details>
-<details>
-<summary>Homepage - Mobile</summary>
-<br>
-<img src="documentation/readme_images/homepage-mobile.png">
-</details>
+
 <br><br>
 
 ### Products
 
-The Products Page dynamically showcases products sourced from the database, contingent upon selected filtering options including category, subcategory and search terms.
+1. The Products Page dynamically showcases products sourced from the database, contingent upon selected filtering options including category, subcategory and search terms.
 
 <details>
-<summary>Products - Desktop</summary>
+<summary>Products</summary>
 <br>
-<img src="documentation/readme_images/all-products-desktop.png">
+<img src="documentation/readme_images/products.png">
 </details>
 <details>
-<summary>Products - Mobile</summary>
+<summary>Store</summary>
 <br>
-<img src="documentation/readme_images/all-products-mobile.png">
-</details>
-<br><br>
-
- **Products Page Components**
-
- 1. Heading Display: This section prominently displays either "All Products" or the name of the currently selected category, providing users with clear context regarding the displayed products.
-
-<details>
-<summary>All Products Heading</summary>
-<br>
-<img src="documentation/readme_images/all-products-heading.png">
-</details>
-<details>
-<summary>Category Heading</summary>
-<br>
-<img src="documentation/readme_images/category-heading.png">
+<img src="documentation/readme_images/store.png">
 </details>
 <br><br>
 
-2. Subcategory Buttons: Located beneath the heading, these buttons represent subcategories within the selected category (if one selected). The currently selected subcategory has differing styling, providing users with clear navigation cues.
+2. Products Information: Positioned below the sort selector on mobile and to the left of the page on desktop, this paragraph provides users with essential information. It includes details such as the total number of products available and any active search terms.
 
 <details>
-<summary>Statues Subcategory</summary>
+<summary>Products Information</summary>
 <br>
-<img src="documentation/readme_images/statues-subcategory.png">
-</details>
-<details>
-<summary>Soft & Plush Subcategory</summary>
-<br>
-<img src="documentation/readme_images/soft-plush-subcategory.png">
+<img src="documentation/readme_images/product_detail.png">
 </details>
 <br><br>
 
-3. Products Information: Positioned below the sort selector on mobile and to the left of the page on desktop, this paragraph provides users with essential information. It includes details such as the total number of products available and any active search terms.
-
-<details>
-<summary>Products Information - Desktop</summary>
-<br>
-<img src="documentation/readme_images/products-info-desktop.png">
-</details>
-<details>
-<summary>Products Information - Mobile</summary>
-<br>
-<img src="documentation/readme_images/products-info-mobile.png">
-</details>
-<br><br>
-
-4. Sort Selector: A dropdown menu located near the top of the page, allowing users to sort products based on various criteria such as price, name, manufacturer, category, and subcategory.
+3. Sort Selector: Positioned near the top of the page, this dropdown menu enables users to organize products according to criteria such as price, name, rating, and category..
 
 <details>
 <summary>Sort Selector</summary>
 <br>
-<img src="documentation/readme_images/sort-selector.png">
+<img src="documentation/readme_images/sort.png.jpg">
 </details>
 <br><br>
 
-5. Product Cards: Each product is displayed in an individual card format. Cards are arranged in column amounts suitable for screen size of the user. The card includes:
-
-* Product Image: Clickable and serves as a direct link to the product's detail page, providing users with a visual representation of the product.
-* Product Name: Clearly states the name of the product.
-* Manufacturer: Displays the name of the manufacturer or publisher responsible for producing the product.
-* Price: Indicates the cost of the product.
-* Category and Subcategory: Specifies the specific category and subcategory to which the product belongs redirects to a view of products filtered by relevant category or subcategory.
+4. Product Cards: Each product is displayed in an individual card format. Cards are arranged in column amounts suitable for screen size of the user. The card includes:
 
 <details>
 <summary>Product Card</summary>
 <br>
-<img src="documentation/readme_images/product-card.png">
+<img src="documentation/readme_images/product_card.png">
 </details>
 <br><br>
 
-6. Edit and Delete Links: Additional options available on product cards to shop owners or administrators. These links allow for administrative actions to be performed on the product.
+5. Edit and Delete Links: Additional options available on product cards to shop owners or administrators. These links allow for administrative actions to be performed on the product.
 
 <details>
 <summary>Edit and Delete Links</summary>
 <br>
-<img src="documentation/readme_images/edit-delete-links.png">
+<img src="documentation/readme_images/edit_delete.png">
 </details>
 <br><br>
 
 ### Product Details Page
 
- The Product Details Page plays a pivotal role in guiding users through their shopping journey, providing them with the information and tools they need to make informed purchasing decisions. It combines visual appeal with functional features to create an engaging and user-friendly shopping experience.
+ 1. The Product Details Page plays a pivotal role in guiding users through their shopping journey, providing them with the information and tools they need to make informed purchasing decisions. It combines visual appeal with functional features to create an engaging and user-friendly shopping experience.
+
+* Product Name: Clearly states the name of the product.
+* Item Description: Displays further initial further details of the product.
+* Detail 1 created to break down information for packages.
+* Detail 2 created to break down information for packages.
+* Price: Indicates the cost of the product.
+* Category: Specifies the specific category to which the product belongs redirects to a view of products filtered by relevant category or subcategory.
 
 <details>
-<summary>Product Details - Desktop</summary>
+<summary>Product Detail</summary>
 <br>
-<img src="documentation/readme_images/product-details-desktop.png">
-</details>
-<details>
-<summary>Product Details - Mobile</summary>
-<br>
-<img src="documentation/readme_images/product-details-mobile.png">
-</details>
-<br><br>
-
- **Product Details Page Components**
-
- 1. Product Image: Presents a visual representation of the product, providing users with a clear view of what they are considering. Image will open in new tab if clicked enabling user closer inspection, in further development image would open in zoomable modal.
-
- 2. Product Information:
-
-    * Product Name: Clearly states the name of the product.
-    * Price: Indicates the cost of the product.
-    * Category and Subcategory: Specifies the specific category and subcategory to which the product belongs redirects to a view of products filtered by relevant category or subcategory.
-    * Manufacturer: Displays the name of the manufacturer or publisher responsible for producing the product.
-    * Product Description: Offers a comprehensive overview of the product's features, specifications, and benefits, assisting users in making informed decisions.
-
-<details>
-<summary>Product Image and Information</summary>
-<br>
-<img src="documentation/readme_images/product-image-description.png">
+<img src="documentation/readme_images/product_card.png">
 </details>
 <br><br>
 
-3. Quantity Input Box: Allows users to specify the quantity of the product they wish to add to their shopping bag, ensuring precise ordering. Users are unable to select a quantity outside of the range 1-99, this achieved by disabling the use of the decrement and increment buttons on the quantity input and by checking the validity of the form on submission.
+
+2. The Quantity Input Box allows users to specify the exact number of products they wish to add to their shopping bag, ensuring precision in their orders. This feature includes controls that prevent users from entering quantities outside the range of 1 to 99 by disabling the increment and decrement buttons. Additionally, the input field validates the form upon submission, maintaining order accuracy throughout the checkout process.
+By restricting the quantity selection to a defined range and implementing validation on form submission, the Quantity Input Box enhances user experience by preventing errors and ensuring that orders meet specified criteria. This approach not only simplifies the ordering process but also contributes to a smoother checkout flow, where users can confidently input their desired quantities without encountering technical issues or discrepancies.
 
 <details>
 <summary>Quantity Input Box</summary>
 <br>
-<img src="documentation/readme_images/quantity-input.png">
+<img src="documentation/readme_images/qty.png">
 </details>
 <br><br>
 
-4. "Keep Shopping" and "Add to Bag" Buttons: Offer two distinct options for user actions. "Keep Shopping" allows users to continue browsing products, while "Add to Bag" submits the quantity input form and places the selected item into their shopping bag.
+3. "Keep Shopping" and "Add to Bag" Buttons: Offer two distinct options for user actions. "Keep Shopping" allows users to continue browsing products, while "Add to Bag" submits the quantity input form and places the selected item into their shopping bag.
 
 <details>
 <summary>"Keep Shopping" and "Add to Bag" Buttons</summary>
 <br>
-<img src="documentation/readme_images/product-details-buttons.png">
+<img src="documentation/readme_images/keep_shopping.png">
 </details>
 <br><br>
 
-5. Reviews Section (Hidden by JS Click to Reveal): Conceals the reviews section by default, providing a cleaner interface. Users can choose to reveal the reviews by clicking on the heading, providing additional feedback and insights about the product. Revealing reviews section also enables the user to submit a review about the product by revealing the "Leave a Review" Button. Ability to add reviews is limited to authenticated users.
-
-<details>
-<summary>Reviews Section - Collapsed</summary>
-<br>
-<img src="documentation/readme_images/reviews-collapsed.png">
-</details>
-<details>
-<summary>Reviews Section - Expanded</summary>
-<br>
-<img src="documentation/readme_images/reviews-expanded.png">
-</details>
-<br><br>
-
-6. Edit and Delete Links: Additional options available on product details page to shop owners or administrators. These links are located underneath the product name and allow for administrative actions to be performed on the product.
+4. Edit and Delete Links: Additional options available on product details page to shop owners or administrators. These links are located underneath the product name and allow for administrative actions to be performed on the product.
 
 <details>
 <summary>Edit and Delete Links</summary>
 <br>
-<img src="documentation/readme_images/edit-delete-product-details.png">
+<img src="documentation/readme_images/edit_delete_card.png">
 </details>
 <br><br>
 
@@ -620,20 +512,15 @@ The Products Page dynamically showcases products sourced from the database, cont
 The Bag page enhances the overall shopping experience by giving users control over their selections, enabling them to review and modify their choices, and providing transparent cost information.
 
 <details>
-<summary>Bag - Desktop</summary>
+<summary>Bag</summary>
 <br>
-<img src="documentation/readme_images/bag-desktop.png">
+<img src="documentation/readme_images/bag.png">
 </details>
-<details>
-<summary>Bag - Mobile</summary>
-<br>
-<img src="documentation/readme_images/bag-mobile.png">
-</details>
-<br><br>
+
 
  **Bag Page Components**
  
- 1. Product Information Section:
+ 1. Product add to bag Toast:
 
 * Product Image: Displays a visual representation of the product, providing users with a clear visual reference.
 
@@ -645,23 +532,13 @@ The Bag page enhances the overall shopping experience by giving users control ov
 
 * Quantity Input Box: Allow users to increment or decrement the quantity of the product in their shopping bag, facilitating easy adjustments.
 
-* Update Button: Enables users to update the quantity of the product currently in the bag, providing flexibility in their shopping choices.
-
-* Remove Button: Allows users to remove the product from the bag if they decide not to proceed with the purchase.
-
 * Sub-Total per Item: Displays the total cost for each individual product based on the quantity selected.
 
 <details>
-<summary>Product Information Section - Desktop</summary>
+<summary>Product Information Section</summary>
 <br>
-<img src="documentation/readme_images/item-info-desktop.png">
+<img src="documentation/readme_images/add_to_bag.png">
 </details>
-<details>
-<summary>Product Information Section - Mobile</summary>
-<br>
-<img src="documentation/readme_images/item-info-mobile.png">
-</details>
-<br><br>
 
 2. Bag Summary:
 
