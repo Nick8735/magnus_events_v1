@@ -114,184 +114,60 @@ Wireframes created using balsamiq.
 <details>
 <summary>Homepage - Desktop</summary>
 <br>
-<img src="documentation/wireframes/homepage-desktop-wireframe.png">
-</details>
-<details>
-<summary>Homepage - Mobile</summary>
-<br>
-<img src="documentation/wireframes/homepage-mobile-wireframe.png">
+<img src="documentation/readme_images/home_page_wf.png">
 </details>
 <details>
 <summary>Products - Desktop</summary>
 <br>
-<img src="documentation/wireframes/products-desktop-wireframe.png">
-</details>
-<details>
-<summary>Products - Mobile</summary>
-<br>
-<img src="documentation/wireframes/products-mobile-wireframe.png">
+<img src="documentation/readme_images/product_page_wf.png">
 </details>
 <details>
 <summary>Product Detail - Desktop</summary>
 <br>
-<img src="documentation/wireframes/product-detail-desktop-wireframe.png">
+<img src="documentation/readme_images/product_detail_wf.png">
 </details>
 <details>
-<summary>Product Detail - Mobile</summary>
-<br>
-<img src="documentation/wireframes/product-detail-mobile-wireframe.png">
-</details>
-<details>
-<summary>Add Product - Desltop</summary>
-<br>
-<img src="documentation/wireframes/add-product-desktop-wireframe.png">
-</details>
-<details>
-<summary>Add Product - Mobile</summary>
-<br>
-<img src="documentation/wireframes/add-product-mobile-wireframe.png">
-</details>
-<details>
-<summary>Edit Product - Desktop</summary>
-<br>
-<img src="documentation/wireframes/edit-product-desktop-wireframe.png">
-</details>
-<details>
-<summary>Edit Product - mobile</summary>
-<br>
-<img src="documentation/wireframes/edit-product-mobile-wireframe.png">
-</details>
-<details>
-<summary>Add Review - Desktop</summary>
-<br>
-<img src="documentation/wireframes/add-review-desktop-wireframe.png">
-</details>
-<details>
-<summary>Add Review - Mobile</summary>
-<br>
-<img src="documentation/wireframes/add-review-mobile-wireframe.png">
-</details>
-<details>
-<summary>Edit Review - Desktop</summary>
-<br>
-<img src="documentation/wireframes/edit-review-desktop-wireframe.png">
-</details>
-<details>
-<summary>Edit Review - Mobile</summary>
-<br>
-<img src="documentation/wireframes/edit-review-mobile-wireframe.png">
-</details>
 <details>
 <summary>Bag - Desktop</summary>
 <br>
-<img src="documentation/wireframes/bag-desktop-wireframe.png">
-</details>
-<details>
-<summary>Bag - Mobile</summary>
-<br>
-<img src="documentation/wireframes/bag-mobile-wireframe.png">
+<img src="documentation/readme_images/basket_wf.png">
 </details>
 <details>
 <summary>Checkout - Desktop</summary>
 <br>
-<img src="documentation/wireframes/checkout-desktop-wireframe.png">
-</details>
-<details>
-<summary>Checkout - Mobile</summary>
-<br>
-<img src="documentation/wireframes/checkout-mobile-wireframe.png">
-</details>
-<details>
-<summary>Checkout Success - Desktop</summary>
-<br>
-<img src="documentation/wireframes/checkout-success-desktop-wireframe.png">
-</details>
-<details>
-<summary>Checkout Success - Mobile</summary>
-<br>
-<img src="documentation/wireframes/checkout-success-mobile-wireframe.png">
+<img src="documentation/readme_images/order_confirmation_wf.png">
 </details>
 <details>
 <summary>Register - Desktop</summary>
 <br>
-<img src="documentation/wireframes/register-desktop-wireframe.png">
-</details>
-<details>
-<summary>Register - Mobile</summary>
-<br>
-<img src="documentation/wireframes/register-mobile-wireframe.png">
+<img src="documentation/readme_images/register_wf.png">
 </details>
 <details>
 <summary>Login - Desktop</summary>
 <br>
-<img src="documentation/wireframes/login-desktop-wireframe.png">
-</details>
-<details>
-<summary>Login - Mobile</summary>
-<br>
-<img src="documentation/wireframes/login-mobile-wireframe.png">
+<img src="documentation/readme_images/sign_in_wf.png">
 </details>
 <details>
 <summary>Logout - Desktop</summary>
 <br>
-<img src="documentation/wireframes/logout-desktop-wireframe.png">
+<img src="documentation/readme_images/sign_in_buy_wf.png">
 </details>
 <details>
-<summary>Logout - Mobile</summary>
-<br>
-<img src="documentation/wireframes/logout-mobile-wireframe.png">
-</details>
-<details>
-<summary>Contact Us - Desktop</summary>
-<br>
-<img src="documentation/wireframes/contact-us-desktop-wireframe.png">
-</details>
-<details>
-<summary>Contact Us - Mobile</summary>
-<br>
-<img src="documentation/wireframes/contact-us-mobile-wireframe.png">
-</details>
 <details>
 <summary>Profile - Desktop</summary>
 <br>
-<img src="documentation/wireframes/profile-desktop-wireframe.png">
+<img src="documentation/readme_images/profile_wf.png">
 </details>
 <details>
-<summary>Profile - Mobile</summary>
+<summary>Order History - Desktop</summary>
 <br>
-<img src="documentation/wireframes/profile-mobile-wireframe.png">
+<img src="documentation/readme_images/order_history_wf.png">
 </details>
 <details>
-<summary>Enquiries - Desktop</summary>
+<summary>Delivery Address - Mobile</summary>
 <br>
-<img src="documentation/wireframes/enquiries-desktop-wireframe.png">
+<img src="documentation/readme_images/delivery_wf.png">
 </details>
-<details>
-<summary>Enquiries - Mobile</summary>
-<br>
-<img src="documentation/wireframes/enquiries-mobile-wireframe.png">
-</details>
-<details>
-<summary>Send Response - Desktop</summary>
-<br>
-<img src="documentation/wireframes/send-response-desktop-wireframe.png">
-</details>
-<details>
-<summary>Send Response - Mobile</summary>
-<br>
-<img src="documentation/wireframes/send-response-mobile-wireframe.png">
-</details>
-<details>
-<summary>404 - Desktop</summary>
-<br>
-<img src="documentation/wireframes/404-desktop-wireframe.png">
-</details>
-<details>
-<summary>404 - Mobile</summary>
-<br>
-<img src="documentation/wireframes/404-mobile-wireframe.png">
-</details>
-<br><br>
 
 ### Database Schema
 
