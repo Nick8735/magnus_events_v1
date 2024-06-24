@@ -227,7 +227,7 @@ All images were created using an AI generator [MidJourney](https://www.midjourne
 <details>
 <summary>Footer - Desktop</summary>
 <br>
-<img src="/workspace/magnus_events_v1/documentation/readme_images/footer.png">
+<img src="documentation/readme_images/footer.png">
 </details>
 
 #### Toasts
