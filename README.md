@@ -29,16 +29,10 @@ This website was created as the 4th Milestone Project for Code Institute's web a
     * [Checkout Page](#checkout-page)
     * [Checkout Success Page](#checkout-success-page)
     * [Profile Page](#profile-page)
-    * [Contact Us Page](#contact-us-page)
-    * [Add Review Page](#add-review-page)
-    * [Edit Review Page](#edit-review-page)
     * [Add Product Page](#add-product-page)
     * [Edit Product Page](#edit-product-page)
     * [Enquiries Page](#enquiries-page)
-    * [Send Response Page](#send-response-page)
     * [Allauth Pages](#allauth-pages)
-    * [404 Error Page](#404-error-page)
-    * [500 Error Page](#500-error-page)
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -104,17 +98,12 @@ From the goals outlined above, user stories were created to ensure that developm
 | 24                                   | User         | Submit my own review of the service.                                                     | Share my personal experience with the community.                                  |
 | 25                                   | Store Owner     | Edit or update previously submitted reviews.                                             | Maintain the quality and appropriateness of reviews on the site.           |
 | 26                                   | Store Owner     | Delete a review if necessary.                                                            | Remove any inappropriate or offensive comments. |
-| **CONTACT**                      |                 |                                                                                          |                                                                                           |
-| 27                                   | User         | Quickly locate the "Contact Us" page.                                                    | Reach out with any questions or concerns efficiently.               |
-| 28                                   | User         | Expect the contact form to offer various subjects for inquiries.                         | Communicate inquiries quickly and effectively with the support team.                      |
-| 29                                   | User         | Receive a confirmation message upon submitting the contact form.                         | Know that my message has been received and will be addressed.                           |
-| 30                                   | User         | Receive an email confirmation containing the details of my submitted message.            | Maintain a record of my communications for future reference.                       |
-| **ADMIN & STORE MANAGEMENT**     |                 |                                                                                          |                                                                                           |
-| 31                                   | Store Owner     | Add new products to the store.                                                           | Add new items to my store's inventory.                                                    |
-| 32                                   | Store Owner     | Edit or update existing product information.                                             | Modify product details, including price, description, manufacturer, etc.                   |
-| 33                                   | Store Owner     | Remove products from the store.                                                          | Remove items that are no longer available for sale from the inventory.                    |
-| 34                                   | Store Owner     | See all unresponded messages from users.                                                 | Respond to users in a timely manner.                                                      |
-| 35                                   | Store Owner     | Have an easy-to-use interface to respond to inquiries and see details of the inquiries.  | Respond to users' inquiries with a detailed response.                                      |
+|| **ADMIN & STORE MANAGEMENT**     |                 |                                                                                          |                                                                                           |
+| 27                                   | Store Owner     | Add new products to the store.                                                           | Add new items to my store's inventory.                                                    |
+| 28                                   | Store Owner     | Edit or update existing product information.                                             | Modify product details, including price, description, manufacturer, etc.                   |
+| 29                                   | Store Owner     | Remove products from the store.                                                          | Remove items that are no longer available for sale from the inventory.                    |
+| 30                                   | Store Owner     | See all unresponded messages from users.                                                 | Respond to users in a timely manner.                                                      |
+| 31                                   | Store Owner     | Have an easy-to-use interface to respond to inquiries and see details of the inquiries.  | Respond to users' inquiries with a detailed response.                                      |
 
 <br><br>
 
