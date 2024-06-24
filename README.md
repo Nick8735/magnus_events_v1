@@ -59,6 +59,12 @@ This website was created as the 4th Milestone Project for Code Institute's web a
 - Shoppers need easy access to customer support for any questions, concerns, or assistance they might need with their event planning.
 - Shoppers appreciate timely responses to their inquiries and interactions with the website, whether they're making a purchase or seeking help.
 
+### Returning users
+-
+-
+-
+-
+
 ## Design
 
 ### User Stories
