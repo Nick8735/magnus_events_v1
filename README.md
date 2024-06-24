@@ -416,7 +416,7 @@ The Bag page enhances the overall shopping experience by giving users control ov
 <details>
 <summary>Bag Summary</summary>
 <br>
-<img src="documentation/readme_images/bag-summary.png">
+<img src="documentation/readme_images/bag_summary.png">
 </details>
 <br><br>
 
@@ -429,7 +429,7 @@ Secure Checkout: This button initiates the checkout process, leading the user to
 <details>
 <summary>Shopping Bag Buttons</summary>
 <br>
-<img src="documentation/readme_images/bag-buttons.png">
+<img src="documentation/readme_images/bag_buttons.png">
 </details>
 <br><br>
 
@@ -440,12 +440,7 @@ The Checkout Page plays a pivotal role in ensuring a smooth and secure transitio
 <details>
 <summary>Checkout - Desktop</summary>
 <br>
-<img src="documentation/readme_images/checkout-desktop.png">
-</details>
-<details>
-<summary>Checkout - Mobile</summary>
-<br>
-<img src="documentation/readme_images/checkout-mobile.png">
+<img src="documentation/readme_images/checkout_page.png">
 </details>
 <br><br>
 
@@ -472,7 +467,7 @@ The Checkout Page plays a pivotal role in ensuring a smooth and secure transitio
 <details>
 <summary>Order Form</summary>
 <br>
-<img src="documentation/readme_images/checkout-order-form.png">
+<img src="">
 </details>
 <br><br>
 
