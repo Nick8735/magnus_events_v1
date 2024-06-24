@@ -152,7 +152,6 @@ Wireframes created using balsamiq.
 <img src="documentation/readme_images/sign_in_buy_wf.png">
 </details>
 <details>
-<details>
 <summary>Profile - Desktop</summary>
 <br>
 <img src="documentation/readme_images/profile_wf.png">
