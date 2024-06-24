@@ -451,9 +451,10 @@ The Checkout Page plays a pivotal role in ensuring a smooth and secure transitio
 * User Details:
     - Full Name
     - Email Address
-    - Phone Number
+   
 
 * Delivery Information:
+    - Phone Number
     - Street Address Line 1
     - Street Address Line 2 (Optional)
     - Town/City
