@@ -127,6 +127,7 @@ Wireframes created using balsamiq.
 <img src="documentation/readme_images/product_detail_wf.png">
 </details>
 <details>
+<br>
 <summary>Bag - Desktop</summary>
 <br>
 <img src="documentation/readme_images/basket_wf.png">
