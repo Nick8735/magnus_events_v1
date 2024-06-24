@@ -493,7 +493,7 @@ If the Grand Total is below the free delivery threshold, a red text warning will
 <details>
 <summary>Order Summary</summary>
 <br>
-<img src="documentation/readme_images/checkout-order-summary.png">
+<img src="">
 </details>
 <br><br>
 
@@ -506,7 +506,7 @@ If the Grand Total is below the free delivery threshold, a red text warning will
 <details>
 <summary>Checkout Buttons</summary>
 <br>
-<img src="documentation/readme_images/checkout-buttons.png">
+<img src="">
 </details>
 <br><br>
 
@@ -519,12 +519,12 @@ If the user is logged in, a checkbox option is available to add this delivery in
 <details>
 <summary>User Authentication Links and Profile Integration</summary>
 <br>
-<img src="documentation/readme_images/checkout-user-authentication.png">
+<img src="">
 </details>
 <details>
 <summary>User Authentication Links and Profile Integration</summary>
 <br>
-<img src="documentation/readme_images/checkout-profile-intergration.png">
+<img src="">
 </details>
 <br><br>
 
@@ -535,12 +535,12 @@ After the successful processing of an order, the shopper is automatically redire
 <details>
 <summary>Checkout Success - Desktop</summary>
 <br>
-<img src="documentation/readme_images/checkout-success-desktop.png">
+<img src="">
 </details>
 <details>
 <summary>Checkout Success - Mobile</summary>
 <br>
-<img src="documentation/readme_images/checkout-success-mobile.png">
+<img src="">
 </details>
 <br><br>
 
@@ -579,12 +579,12 @@ The Profile Page serves as a hub for users to manage their default delivery info
 <details>
 <summary>Profile - Desktop</summary>
 <br>
-<img src="documentation/readme_images/profile-desktop.png">
+<img src="">
 </details>
 <details>
 <summary>Profile - Mobile</summary>
 <br>
-<img src="documentation/readme_images/profile-mobile.png">
+<img src="">
 </details>
 <br><br>
 
@@ -602,7 +602,7 @@ The Profile Page serves as a hub for users to manage their default delivery info
 <details>
 <summary>Default Delivery Information</summary>
 <br>
-<img src="documentation/readme_images/profile-delivery-information.png">
+<img src="">
 </details>
 <br><br>
 
@@ -617,7 +617,7 @@ Displays past orders with the following details for each order:
 <details>
 <summary>Order History</summary>
 <br>
-<img src="documentation/readme_images/profile-order-history.png">
+<img src="">
 </details>
 <br><br>
 
@@ -627,7 +627,7 @@ Lists all reviews made by the user, along with options for edit and delete actio
 <details>
 <summary>Reviews</summary>
 <br>
-<img src="documentation/readme_images/profile-reviews.png">
+<img src="">
 </details>
 <br><br>
 
@@ -637,7 +637,7 @@ Displays contact form submissions made by the user, indicating whether a respons
 <details>
 <summary>Messages</summary>
 <br>
-<img src="documentation/readme_images/profile-messages.png">
+<img src="">
 </details>
 <br><br>
 
@@ -645,88 +645,6 @@ Upon loading the page, the "Order History" section of the accordion is automatic
 
 Expanding another section automatically collapses the currently open section. This ensures that only one section of the accordion is open at a time, providing a clean and organized user interface.
 
-### Contact Us Page
-
-The purpose of the Contact Us page is to establish a direct and accessible communication channel between the users and the shop owner. Page is only available to authenticated users.
-
-<details>
-<summary>Contact Us- Desktop</summary>
-<br>
-<img src="documentation/readme_images/contact-us-desktop.png">
-</details>
-<details>
-<summary>Contact Us - Mobile</summary>
-<br>
-<img src="documentation/readme_images/contact-us-mobile.png">
-</details>
-<br><br>
-
-**Contact Us Page Components**
-
-1. Contact Form:
-
-* Dropdown Menu: Provides a range of options for users to select the reason why they want to contact the shop owner. This ensures that enquiries are categorized for efficient handling.
-
-* Text Area: Allows users to compose and leave their message. This provides a space for users to articulate their enquiries, feedback, or requests in detail.
-
-2. Confirmation Email to User:
-
-A confirmation email is automatically sent to the user's provided email address. This email serves as a receipt and contains details of the enquiry that was sent to the shop owner.
-
-### Add Review Page
-
-When the user clicks the Leave a Review button on the product details page, they are redirected to the Add Review page for that product. The Add Review page contributes to a dynamic and interactive shopping experience, empowering users to share their opinions and contribute to the collective knowledge about products available in the store. Ability to add a review is limited to authenticated users.
-
-<details>
-<summary>Add Review- Desktop</summary>
-<br>
-<img src="documentation/readme_images/add-review-desktop.png">
-</details>
-<details>
-<summary>Add Review - Mobile</summary>
-<br>
-<img src="documentation/readme_images/add-review-mobile.png">
-</details>
-<br><br>
-
-**Add Review Page Components**
-
-1. Review Form:
-* Title Field: Allows the user to input a title for their review.
-* Textarea for Content: Provides a space for the user to write the content of their review.
-* Rating Dropdown: Allows the user to select a rating from 0 to 5, indicating their overall satisfaction with the product.
-
-<details>
-<summary>Review Form</summary>
-<br>
-<img src="documentation/readme_images/add-review-form.png">
-</details>
-<br><br>
-
-2. On desktop, an image of the product is available for reference while writing the review. Not available on mobile as it takes up to much screen real estate.
-
-<details>
-<summary>Desktop Image</summary>
-<br>
-<img src="documentation/readme_images/add-review-image.png">
-</details>
-<br><br>
-
-### Edit Review Page
-
-The Edit Review page serves the purpose of allowing users to make modifications to their existing reviews. It shares a similar structure with the Add Review page, but the form is prepopulated with the current review data. Ability to edit reviews is limited to the user that created the review or Shop Owner/Administrator.
-
-<details>
-<summary>Edit Review - Desktop</summary>
-<br>
-<img src="documentation/readme_images/edit-review-desktop.png">
-</details>
-<details>
-<summary>Edit Review - Mobile</summary>
-<br>
-<img src="documentation/readme_images/edit-review-mobile.png">
-</details>
-<br><br>
 
 ### Add Product Page
 
@@ -735,12 +653,12 @@ The Edit Review page serves the purpose of allowing users to make modifications 
 <details>
 <summary>Add Product - Desktop</summary>
 <br>
-<img src="documentation/readme_images/add-product-desktop.png">
+<img src="">
 </details>
 <details>
 <summary>Add Product - Mobile</summary>
 <br>
-<img src="documentation/readme_images/add-product-mobile.png">
+<img src="">
 </details>
 <br><br>
 
@@ -759,7 +677,7 @@ Add Product Form:
 <details>
 <summary>Category and Subcategory Dropdowns</summary>
 <br>
-<video src="documentation/readme_images/add-product-selects.webm" controls="controls"></video>
+<video src="" controls="controls"></video>
 </details>
 <br><br>
 
@@ -770,12 +688,12 @@ The Edit Products page serves the purpose of allowing users to make modification
 <details>
 <summary>Edit Product - Desktop</summary>
 <br>
-<img src="documentation/readme_images/edit-product-desktop.png">
+<img src="">
 </details>
 <details>
 <summary>Edit Product - Mobile</summary>
 <br>
-<img src="documentation/readme_images/edit-product-mobile.png">
+<img src="">
 </details>
 <br><br>
 
@@ -786,60 +704,15 @@ The purpose of the Enquiries page is to serve as a centralized hub for managing 
 <details>
 <summary>Enquiries - Desktop</summary>
 <br>
-<img src="documentation/readme_images/enquiries-desktop.png">
+<img src="">
 </details>
 <details>
 <summary>Enquiries - Mobile</summary>
 <br>
-<img src="documentation/readme_images/enquiries-mobile.png">
+<img src="">
 </details>
 <br><br>
 
-**Enquiries Page Components**
-
-1. Table:
-The table displays the following columns:
-* User: Indicates the name of the user who sent the enquiry.
-* Date Enquiry Sent: Shows the date when the enquiry was submitted.
-* Email of User: Displays the email address of the user who sent the enquiry.
-* Reason for Contact: Specifies the category or reason for the user's contact.
-* Reply Button: Links to the Send Response page for addressing the enquiry.
-
-2. Responsive Design:
-Below 768px, the Date column is hidden to ensure the table remains fully visible on various screen sizes. When the screen size is reduced beyond a certain point, the table becomes horizontally scrollable to accommodate all information.
-
-### Send Response Page
-
-The purpose of the Send Response page is to provide a dedicated space for the Shop Owner/Administrator to compose and send responses to user enquiries. It streamlines the process of addressing user enquiries, allowing the Shop Owner/Administrator to provide timely and personalized responses. Access to this page is limited to superusers.
-
-<details>
-<summary>Send Response - Desktop</summary>
-<br>
-<img src="documentation/readme_images/send-response-desktop.png">
-</details>
-<details>
-<summary>Send Response - Mobile</summary>
-<br>
-<img src="documentation/readme_images/send-response-mobile.png">
-</details>
-<br><br>
-
-**Send Response Page Components**
-
-1. Response Form:
-The form includes a textarea where the shop owner can compose a response message.
-
-2. Contact Form Submission Details:
-This section displays all the details of the original contact form submission, including:
-* User's Name
-* User's Email
-* Reason for Contact
-* Original Message
-* Submission Process:
-
-3. Upon submission of the response form, the following actions occur:
-The response_sent field on the contact table in the database is updated to indicate that a response has been sent.
-An email is automatically sent to the user who sent the original enquiry. This email includes the details of their original contact form submission and the response from the shop owner.
 
 ### Allauth Pages
 
@@ -855,14 +728,6 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 5. Integration with Django Admin: allauth seamlessly integrates with the Django admin interface, making it easy to manage user accounts and authentication settings.
 
-### 404 Error Page
-
-The 404 Error Page serves the purpose of handling and communicating 404 errors, indicating that the requested page could not be found. A button is provided that redirects the user back to the Homepage.
-
-### 500 Error Page
-
-The 500 Error Page serves the purpose of handling and communicating 500 errors, indicating that the there was an internal server error.. A button is provided that redirects the user back to the Homepage.
-
 ## Technologies
 
 ### Languages
@@ -871,36 +736,39 @@ The 500 Error Page serves the purpose of handling and communicating 500 errors, 
 * CSS3 - for styling.
 * JS/JQuery - for frontend functionality and functions that request and handle data from the backend.
 * Python - for the backend functionality.
-    * Python Modules used -
-    * asgiref==3.7.2
-    * boto3==1.28.62
-    * botocore==1.31.62
-    * dj-database-url==0.5.0
-    * Django==3.2.21
-    * django-allauth==0.41.0
-    * django-countries==7.2.1
-    * django-crispy-forms==1.14.0
-    * django-storages==1.14.2
-    * gunicorn==21.2.0
-    * jmespath==1.0.1
-    * oauthlib==3.2.2
-    * Pillow==10.0.1
-    * psycopg2==2.9.9
-    * python3-openid==3.2.0
-    * requests-oauthlib==1.3.1
-    * s3transfer==0.7.0
-    * sqlparse==0.4.4
-    * stripe==6.6.0
-    * urllib3==1.26.17
+* Python Modules used -
+* asgiref==3.2.3
+* boto3==1.12.42
+* botocore==1.15.42
+* chardet==3.0.4
+* dj-database-url==0.5.0
+* Django==3.0.1
+* django-allauth==0.41.0
+* django-countries==6.0
+* django-crispy-forms==1.8.1
+* django-storages==1.9.1
+* docutils==0.15.2
+* gunicorn==20.0.4
+* idna==2.8
+* jmespath==0.9.5
+* oauthlib==3.1.0
+* Pillow==7.0.0
+* psycopg2-binary==2.8.5
+* python3-openid==3.1.0
+* pytz==2019.3
+* requests==2.22.0
+* requests-oauthlib==1.3.0
+* s3transfer==0.3.3
+* sqlparse==0.3.0
+* stripe==2.42.0
+* urllib3==1.25.7
 <br><br>
 
 ### Tools
 
-* Cloudconvert - used to convert images to WEBP format.
-* Tinypng - used to compress images.
+* Mid Journey - used to create images.
 * Baslamiq - used to create wireframes.
-* Logo.com - used to create logo.
-* Diagrams.net - used to create DB schema.
+* Lucid Charts - used to create DB schema.
 * Am I Responsive - used to create responsive mockup for readme.
 * Google Dev Tools - used for troubleshooting during development.
 * Git/Github - used for version control and storage.
@@ -912,7 +780,6 @@ The 500 Error Page serves the purpose of handling and communicating 500 errors, 
 * AWS S3 - used to store images and static files.
 * Stripe - Used to process the payment information.
 * SQLite - Used for database for local development.
-* ElephantSQL - Used to host the production database.
 <br><br>
 
 ## Testing
@@ -927,8 +794,3 @@ For deployment please see the [Deployment](/DEPLOYMENT.md) documentation.
 
 ## Credits
 
-All product information, including images, were sourced from the [Forbidden Planet](https://forbiddenplanet.com/) website.
-
-Hero image was generated at [Ideogram.ai](https://ideogram.ai/) direct link to image [here](https://ideogram.ai/g/yEP-bNcqRSGHJVfzij6GAA/3).
-
-Base that this project was built upon came from Code Institute's Boutique Ado walkthrough project.
