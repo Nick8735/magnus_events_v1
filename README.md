@@ -849,24 +849,24 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+|Create a product as a super user | User will be able to create a product and add an image. | User updated information in the form and added image to have a new product on the site.   | The user should have the option of what areas of the form need filled in, there should also be mandatory sections such as name and category where the user cannot go any further. This would ensure consistent details across the site and allow a minimum amount of detail that could be seen by the user.|
 
 
-![Test 2]()
-
-|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
-|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
-
-
-![Test 2]()
+![Add product](documentation/readme_gifs/add_product.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+|Delete Product | User will be logged in as a supper user and delete a product | User was able to delete a product  | Edit and delete buttons are above the product on the product page  |
 
 
-![Test 2]()
+![Delete Product](documentation/readme_gifs/delete_product.gif)
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+|Add to bag | User will add a product to the bag ready to pay |  User added product to bag, worked as required.  | On the bag screen the update and delete buttons are too similar to the delete and edit product buttons, these should be different in order to not confuse the user.   |
+
+
+![Add to Bag](documentation/readme_gifs/add_to_bag.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
