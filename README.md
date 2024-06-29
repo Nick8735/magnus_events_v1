@@ -790,12 +790,125 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| Register account | The user should be able to register an account.After completing the registration form, the user should receive a message prompting them to verify their email.A toast message should confirm that the verification email has been sent. |   The user successfully completed the registration form.The user was notified that the verification email had been sent to their email address. |footer should be at the bottom of the screen.Add a message reminding users to check their junk mail or spam folder for the verification email.Stronger font so text is easier to view when inputting on the form.Bigger toast message, quite small and could be missed. |
+| Register account | The user should be able to register an account.After completing the registration form, the user should receive a message prompting them to verify their email.A toast message should confirm that the verification email has been sent. |   The user successfully completed the registration form.The user was notified that the verification email had been sent to their email address. |The footer should be at the bottom of the screen, this would give a consistent approach for where the user would find improtant information across the site. A message reminding users to check their junk mail or spam folder for the verification email would decrease confusion and imrpove administration time. Stronger font so text is easier to view when inputting on the form.Bigger toast message, quite small and could be missed. |
 
 
-![Test 1](asset/css/asset/doc/user-storie_testing/test-1.gif)
+![Test 1](documentation/readme_gifs/test1.gif)
 
 
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+|Login   | The User should be able to login.|  User was able to login with no errors and recieved a confirmation message.  | If the account icon changed to a diiferent icon after login this again would show confidence to the user that they have logged in successfully.| 
+
+
+![Login](documentation/readme_gifs/login.gif)
+
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+|Logout | The User should be able to logout | User was able to logout with no errors.   | If there was more visual such as the Account icon being replaced the user would get more confidence that they have logged out. |
+
+
+![Logout](documentation/readme_gifs/logout.gif)
+
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| |  |    | |
+
+
+![Test 2]()
 <br>
 
 ## Deployment
