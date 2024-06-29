@@ -814,38 +814,38 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+|Find your package |User to navigate from the homepage to product page. | User was able to navigate from homepage to products page. | If button text was changed to create your package I believe this would be more in tune with the objective of the site, this would increase user understanding and emphasize what the call to action button will do for you.   |
 
 
-![Test 2]()
-
-|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
-|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
-
-
-![Test 2]()
+![Find Package](documentation/readme_gifs/find_package.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+| Filter by cost| The user should be able to filter the packages by cost.  | The packages were listed in order of cost lowest to highest.| Colours could be used to identify the difference in cost to allow a more visual experience for the user. Removal of store items would mean ring fence both sides of the website, instead having everything together may give freedom to the user but could also introduce confusion between what is a package and what is the store.  |
 
 
-![Test 2]()
-
-|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
-|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
-
-
-![Test 2]()
+![Filter by cost](documentation/readme_gifs/filter_price.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+|Filter by category | The user should be able to filter by a catergory  | The user was able to filter the wedding category.   | Having a selection of categories to pick from instead of filtering for one would imrpve the users experience with creating a package and allow a more detailed selection. |
 
 
-![Test 2]()
+![Filter by Category](documentation/readme_gifs/filter_category.gif)
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+|Access the store | The user should be able to access the store. |User accessed the store and was able to only view store items.    |Store items could be categorised into the same areas as the packages which would allow the user more visuals with breaking down the store. |
+
+
+![Access Store](documentation/readme_gifs/access_store.gif)
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+|Login As super user | The user will login as super user and have access to the product management tab in my account. | The user logged in and was able to access product management. | It is not clear to the user if they are logged in as a super user, there should be a visual icon that suggest what the user is logged in as. |
+
+
+![Super_user](documentation/readme_gifs/login_superuser.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
