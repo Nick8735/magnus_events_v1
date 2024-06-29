@@ -786,8 +786,35 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 ## Testing
 
-For testing please see the [Testing](/TESTING.md) documentation.
 <br><br>
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| Register account | The user should be able to register an account.
+ 
+
+After completing the registration form, the user should receive a message prompting them to verify their email.
+ 
+
+A toast message should confirm that the verification email has been sent. |   The user successfully completed the registration form.
+ 
+
+The user was notified that the verification email had been sent to their email address. |footer should be at the bottom of the screen.
+ 
+
+Add a message reminding users to check their junk mail or spam folder for the verification email.
+ 
+
+Stronger font so text is easier to view when inputting on the form.
+ 
+
+Bigger toast message, quite small and could be missed. |
+
+
+![Test 1](asset/css/asset/doc/user-storie_testing/test-1.gif)
+
+
+<br>
 
 ## Deployment
 
