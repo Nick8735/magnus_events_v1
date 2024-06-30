@@ -836,5 +836,203 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 ![Edit Product](documentation/readme_gifs/edit_product.gif)
 <br>
 
+### HTML Validation
+
+All pages tested for  HTML Validation at [W3C markup validation service](https://validator.w3.org/) .The W3C validator incorrectly issues an error message. Its diagnostics is self-contradictory, because it reports the lack of a title element as an error, yet quotes the HTML 5.1 draft as saying, among other things, that a the element is not required when “title information is available from a higher-level protocol”. The rule is clarified in the HTML5 spec as follows, at the end of the description of the head element. This error has been found on all HTML validation.
+
+<details>
+<summary>Base HTML</summary>
+<br>
+<img src="documentation/readme_images/base_validation.png">
+</details>
+
+<details>
+<summary>Add Product HTML</summary>
+<br>
+<img src="documentation/readme_images/add_product_validation.png">
+</details>
+
+<details>
+<summary>Bag Validation</summary>
+<br>
+<img src="documentation/readme_images/base_validation.png">
+</details>
+
+<details>
+<summary>Checkout Validation</summary>
+<br>
+<img src="documentation/readme_images/checkout_validation.png">
+</details>
+
+<details>
+<summary>Checkout Success</summary>
+<br>
+<img src="documentation/readme_images/checkout_success_validation.png">
+</details>
+
+<details>
+<summary>Edit Product</summary>
+<br>
+<img src="documentation/readme_images/edit_product_validation.png">
+</details>
+
+<details>
+<summary>Product Detail</summary>
+<br>
+<img src="documentation/readme_images/product_detail_validation.png">
+</details>
+
+<details>
+<summary>Products page</summary>
+<br>
+<img src="documentation/readme_images/products_validation.png">
+</details>
+
+### CSS Validation
+
+<details>
+<summary>Base CSS</summary>
+<br>
+<img src="documentation/readme_images/base_css_validation.png">
+</details>
+
+### JS Validation
+
+<details>
+<summary>Stripe JS</summary>
+<br>
+<img src="documentation/readme_images/js_stripe_validation.png">
+</details>
+
+### Python Validation
+
+<details>
+<summary>Manage.py</summary>
+<br>
+<img src="documentation/readme_images/manage_py_validation.png">
+</details>
+
+<details>
+<summary>Storage.py</summary>
+<br>
+<img src="documentation/readme_images/storage_py_validator.png">
+</details>
+
+<details>
+<summary>Bag Context py</summary>
+<br>
+<img src="documentation/readme_images/bag_context_validation.png">
+</details>
+
+<details>
+<summary>Bag Urls</summary>
+<br>
+<img src="documentation/readme_images/urls_bag_validation.png">
+</details>
+
+<details>
+<summary>Bag Views</summary>
+<br>
+<img src="documentation/readme_images/views_bag_validation.png">
+</details>
+
+<details>
+<summary>Checkout admin</summary>
+<br>
+<img src="documentation/readme_images/checkout_admin_validator.png">
+</details>
+
+<details>
+<summary>Checkout Apps</summary>
+<br>
+<img src="documentation/readme_images/apps_checkout_validator.png">
+</details>
+
+<details>
+<summary>Checkout Forms</summary>
+<br>
+<img src="documentation/readme_images/forms_checkout_validator.png">
+</details>
+
+<details>
+<summary>Checkout models</summary>
+<br>
+<img src="documentation/readme_images/checkout_model_validator.png">
+</details>
+
+<details>
+<summary>Checkout urls</summary>
+<br>
+<img src="documentation/readme_images/urls_checkout_validator.png">
+</details>
+
+<details>
+<summary>Checkout Checkout Views</summary>
+<br>
+<img src="documentation/readme_images/views_checkout_validator.png">
+</details>
+
+<details>
+<summary>Checkout Webhook</summary>
+<br>
+<img src="documentation/readme_images/webhook_checkout_validator.png">
+</details>
+
+<details>
+<summary>Checkout Webhook py</summary>
+<br>
+<img src="documentation/readme_images/webhookpy_checkout_validator.png">
+</details>
+
+<details>
+<summary>Product Forms</summary>
+<br>
+<img src="documentation/readme_images/forms_products_validator.png">
+</details>
+
+<details>
+<summary>Product Models</summary>
+<br>
+<img src="documentation/readme_images/models_products_checkout.png">
+</details>
+
+<details>
+<summary>Product Urls</summary>
+<br>
+<img src="documentation/readme_images/urls_product_validator.png">
+</details>
+
+<details>
+<summary>Product Widgits</summary>
+<br>
+<img src="documentation/readme_images/products_widgits_validator.png">
+</details>
+
+### Lighthouse
+
+<details>
+<summary>Home Page</summary>
+<br>
+<img src="documentation/readme_images/lighthouse_home.png">
+</details>
+
+<details>
+<summary>Product Page</summary>
+<br>
+<img src="documentation/readme_images/products_page_lighthouse.png">
+</details>
+
+<details>
+<summary>Store Page</summary>
+<br>
+<img src="documentation/readme_images/lighthouse_store.png">
+</details>
+
+
 ## Credits
 
+## Acknowledgemts
+
+My College Tutor for continuous support and understanding throughout.
+My Mentor for great feedback and support.
+My partner who looked after the kids while I tapped away.

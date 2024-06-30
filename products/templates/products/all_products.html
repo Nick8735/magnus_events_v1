@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block page_header %}
+    <!-- Content for page header -->
     <div class="container header-container">
         <div class="row">
             <div class="col"></div>
@@ -9,7 +10,18 @@
     </div>
 {% endblock %}
 
-{% block content %}
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title> <!-- Replace with an appropriate title -->
+    <link rel="stylesheet" href="{% static 'path/to/your/css/file.css' %}">
+    <!-- Add any additional meta tags, CSS links, or scripts as needed -->
+</head>
+<body>
+    {% block content %}
+    <!-- Content for main page content -->
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
@@ -26,8 +38,8 @@
                     <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                         <div class="sort-select-wrapper w-50">
                             <label for="sort-selector" class="text-muted">Sort by:</label>
-                            <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
-                                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Default Sorting</option>
+                            <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border {% if current_sorting != 'None_None' %}border-info{% else %}border-black{% endif %}">
+                               <!-- <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Default Sorting</option>-->
                                 <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
                                 <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
                                 <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
@@ -77,11 +89,6 @@
                                                     </a>
                                                 </p>
                                             {% endif %}
-                                          <!--  {% if product.rating %}
-                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                                            {% else %}
-                                                <small class="text-muted"></small>
-                                            {% endif %} -->
                                         </div>
                                     </div>
                                 </div>
@@ -101,35 +108,40 @@
             </div>
         </div>
     </div>
-{% endblock %}
-{% block postloadjs %}
-    {{ block.super }}
+    {% endblock %}
+
+    {% block postloadjs %}
+    <!-- JavaScript section -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
-        $('.btt-link').click(function(e) {
-            window.scrollTo(0,0)
-        })
+        $(document).ready(function() {
+            // Scroll to top function
+            $('.btt-link').click(function(e) {
+                e.preventDefault();
+                window.scrollTo(0, 0);
+            });
+
+            // Sorting dropdown change handler
+            $('#sort-selector').change(function() {
+                var selector = $(this);
+                var currentUrl = new URL(window.location.href);
+
+                var selectedVal = selector.val();
+                if (selectedVal != "reset") {
+                    var sort = selectedVal.split("_")[0];
+                    var direction = selectedVal.split("_")[1];
+
+                    currentUrl.searchParams.set("sort", sort);
+                    currentUrl.searchParams.set("direction", direction);
+                } else {
+                    currentUrl.searchParams.delete("sort");
+                    currentUrl.searchParams.delete("direction");
+                }
+
+                window.location.href = currentUrl;
+            });
+        });
     </script>
-
-    <script type="text/javascript">
-        $('#sort-selector').change(function() {
-            var selector = $(this);
-            var currentUrl = new URL(window.location);
-
-            var selectedVal = selector.val();
-            if(selectedVal != "reset"){
-                var sort = selectedVal.split("_")[0];
-                var direction = selectedVal.split("_")[1];
-
-                currentUrl.searchParams.set("sort", sort);
-                currentUrl.searchParams.set("direction", direction);
-
-                window.location.replace(currentUrl);
-            } else {
-                currentUrl.searchParams.delete("sort");
-                currentUrl.searchParams.delete("direction");
-
-                window.location.replace(currentUrl);
-            }
-        })
-    </script>
-{% endblock %}
+    {% endblock %}
+</body>
+</html>
