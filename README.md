@@ -49,21 +49,18 @@ This website was created as the 4th Milestone Project for Code Institute's web a
 ### Owners Goals
 - The owner aims to provide a tailored event planning experience, offering a diverse selection of event options and services to cater to various customer preferences and needs.
 - The owner wants to ensure that customers have a smooth and enjoyable experience on the website. This involves creating an intuitive, easy-to-navigate platform that simplifies the event planning process.
-- The owner values customer feedback and aims to create a space where users can share their opinions and experiences. This feedback will be used to continually improve services and assist future customers in making informed decisions.
 - Customer satisfaction is paramount. The owner is committed to delivering exceptional customer service, which includes prompt responses to inquiries, comprehensive support throughout the event planning process, and addressing any issues that may arise efficiently.
 
 ### Shoppers Goals
 - Shoppers want to explore a wide variety of event options and services to find the perfect fit for their unique needs and preferences.
 - Some shoppers might have specific event details in mind and want a straightforward way to find and customize these options.
 - Shoppers seek a user-friendly website with a secure and smooth checkout process, ensuring a hassle-free experience from start to finish.
-- Shoppers need easy access to customer support for any questions, concerns, or assistance they might need with their event planning.
-- Shoppers appreciate timely responses to their inquiries and interactions with the website, whether they're making a purchase or seeking help.
 
 ### Returning users
--
--
--
--
+- Shoppers should be able to check there order confirmation numbers.
+- Shoppers should be able to easily search for products. 
+- Shopper should be able to update delivery and profile information.
+
 
 ## Design
 
@@ -98,18 +95,10 @@ From the goals outlined above, user stories were created to ensure that developm
 | 19                                   | User         | Trust that my personal and payment information is kept safe and secure.                  | Provide necessary information for the booking with confidence.                           |
 | 20                                   | User         | Receive an order confirmation after completing a booking.                               | Verify that all details are accurate to prevent any mistakes.                    |
 | 21                                   | User         | Get an email confirmation after the checkout process.                                    | Retain a confirmation of my booking for future reference.                       |
-| **SERVICE REVIEWS**              |                 |                                                                                          |                                                                                           |
-| 22                                   | User         | Access available service reviews while browsing.                                         | Gain valuable insights from other customers about the service.                          |
-| 23                                   | User         | Easily understand how to contribute my own reviews.                                      | Decide whether to share my experience based on my satisfaction.                 |
-| 24                                   | User         | Submit my own review of the service.                                                     | Share my personal experience with the community.                                  |
-| 25                                   | Store Owner     | Edit or update previously submitted reviews.                                             | Maintain the quality and appropriateness of reviews on the site.           |
-| 26                                   | Store Owner     | Delete a review if necessary.                                                            | Remove any inappropriate or offensive comments. |
 || **ADMIN & STORE MANAGEMENT**     |                 |                                                                                          |                                                                                           |
 | 27                                   | Store Owner     | Add new products to the store.                                                           | Add new items to my store's inventory.                                                    |
 | 28                                   | Store Owner     | Edit or update existing product information.                                             | Modify product details, including price, description, manufacturer, etc.                   |
 | 29                                   | Store Owner     | Remove products from the store.                                                          | Remove items that are no longer available for sale from the inventory.                    |
-| 30                                   | Store Owner     | See all unresponded messages from users.                                                 | Respond to users in a timely manner.                                                      |
-| 31                                   | Store Owner     | Have an easy-to-use interface to respond to inquiries and see details of the inquiries.  | Respond to users' inquiries with a detailed response.                                      |
 
 <br><br>
 
@@ -474,7 +463,7 @@ The Checkout Page plays a pivotal role in ensuring a smooth and secure transitio
 <details>
 <summary>Order Form</summary>
 <br>
-<img src="">
+<img src="documentation/readme_images/checkout_form.png">
 </details>
 <br><br>
 
@@ -495,7 +484,7 @@ If the Grand Total is below the free delivery threshold, a red text warning will
 <details>
 <summary>Order Summary</summary>
 <br>
-<img src="">
+<img src="documentation/readme_images/order_summary.png">
 </details>
 <br><br>
 
@@ -508,25 +497,7 @@ If the Grand Total is below the free delivery threshold, a red text warning will
 <details>
 <summary>Checkout Buttons</summary>
 <br>
-<img src="">
-</details>
-<br><br>
-
-4. User Authentication Links and Profile Integration:
-
-If the user is not logged in, there are links provided to either register for a new account or log in if they already have an existing account. This ensures the accuracy of the delivery information and allows for order tracking.
-
-If the user is logged in, a checkbox option is available to add this delivery information to their user profile. This feature streamlines the ordering process for future purchases, making it more convenient for the user.
-
-<details>
-<summary>User Authentication Links and Profile Integration</summary>
-<br>
-<img src="">
-</details>
-<details>
-<summary>User Authentication Links and Profile Integration</summary>
-<br>
-<img src="">
+<img src="documentation/readme_images/checkout_page.png">
 </details>
 <br><br>
 
@@ -537,14 +508,8 @@ After the successful processing of an order, the shopper is automatically redire
 <details>
 <summary>Checkout Success - Desktop</summary>
 <br>
-<img src="">
-</details>
+<img src="documentation/readme_images/order_success.png">
 <details>
-<summary>Checkout Success - Mobile</summary>
-<br>
-<img src="">
-</details>
-<br><br>
 
 **Checkout Success Page Components**
 
@@ -574,21 +539,22 @@ This button allows the shopper to return to the Products Page, giving them the o
 
 A confirmation email is automatically sent to the user's provided email address. The email includes a summary of the order.
 
+<details>
+<summary>Checkout Success - Desktop</summary>
+<br>
+<img src="documentation/readme_images/order_success.png">
+<details>
+
 ### Profile Page
 
-The Profile Page serves as a hub for users to manage their default delivery information, review their order, reviews and enquiries history. It contributes to a seamless and personalized user experience. Ability to access profile page is limited to authenticated users.
+The Profile Page serves as a hub for users to manage their default delivery information, review their order. It contributes to a seamless and personalized user experience. Ability to access profile page is limited to super users.
 
 <details>
 <summary>Profile - Desktop</summary>
 <br>
-<img src="">
+<img src="documentation/readme_images/profile_page.png">
 </details>
-<details>
-<summary>Profile - Mobile</summary>
-<br>
-<img src="">
-</details>
-<br><br>
+
 
 **Profile Page Components**
 
@@ -604,7 +570,7 @@ The Profile Page serves as a hub for users to manage their default delivery info
 <details>
 <summary>Default Delivery Information</summary>
 <br>
-<img src="">
+<img src="documentation/readme_images/profile_page.png">
 </details>
 <br><br>
 
@@ -619,33 +585,10 @@ Displays past orders with the following details for each order:
 <details>
 <summary>Order History</summary>
 <br>
-<img src="">
+<img src="documentation/readme_images/profile_page.png">
 </details>
 <br><br>
 
-* Reviews Section:
-Lists all reviews made by the user, along with options for edit and delete actions.
-
-<details>
-<summary>Reviews</summary>
-<br>
-<img src="">
-</details>
-<br><br>
-
-* Messages Section:
-Displays contact form submissions made by the user, indicating whether a response has been sent or not.
-
-<details>
-<summary>Messages</summary>
-<br>
-<img src="">
-</details>
-<br><br>
-
-Upon loading the page, the "Order History" section of the accordion is automatically open, displaying the user's order history.
-
-Expanding another section automatically collapses the currently open section. This ensures that only one section of the accordion is open at a time, providing a clean and organized user interface.
 
 
 ### Add Product Page
@@ -655,33 +598,9 @@ Expanding another section automatically collapses the currently open section. Th
 <details>
 <summary>Add Product - Desktop</summary>
 <br>
-<img src="">
+<img src="documentation/readme_images/add_image.png">
 </details>
 <details>
-<summary>Add Product - Mobile</summary>
-<br>
-<img src="">
-</details>
-<br><br>
-
-**Add Product Page Components**
-
-Add Product Form:
-* Category Dropdown: Allows the user to select the appropriate category for the new product from a list of available categories stored in the database.
-* Subcategory Dropdown: Populated dynamically based on the selected category, utilizing an AJAX request and response when category field is changed to provide relevant subcategory options.
-* SKU: Enables the user to input the Stock Keeping Unit (SKU) for the new product.
-* Name.
-* Description.
-* Manufacturer.
-* Price Field.
-* Product Image Widget: Provides functionality to upload an associated image with the new product.
-
-<details>
-<summary>Category and Subcategory Dropdowns</summary>
-<br>
-<video src="" controls="controls"></video>
-</details>
-<br><br>
 
 ### Edit Product Page
 
@@ -690,30 +609,8 @@ The Edit Products page serves the purpose of allowing users to make modification
 <details>
 <summary>Edit Product - Desktop</summary>
 <br>
-<img src="">
+<img src="documentation/readme_images/edit_image.png">
 </details>
-<details>
-<summary>Edit Product - Mobile</summary>
-<br>
-<img src="">
-</details>
-<br><br>
-
-### Enquiries Page
-
-The purpose of the Enquiries page is to serve as a centralized hub for managing and responding to user enquiries or messages directed to the shop owner. The page is populated with only unresponded enquiries and is accessible exclusively by superusers.
-
-<details>
-<summary>Enquiries - Desktop</summary>
-<br>
-<img src="">
-</details>
-<details>
-<summary>Enquiries - Mobile</summary>
-<br>
-<img src="">
-</details>
-<br><br>
 
 
 ### Allauth Pages
