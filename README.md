@@ -870,17 +870,17 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-|Sort Products |User will be able to sort the products   |    | |
+|Sort Products |User will be able to sort the products into different data categories to enhance user analysis.   | User was able to sort the product list into multiple different categories.    | Having a more visual confirmation of the sort would increase awarness to the user and allow confidence to the user that the sort has been successful. |
 
 
-![Test 2]()
+![Sort](documentation/readme_gifs/sort.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+|Delivery Price |User will have free delivery over £150  | During this test a bug was found that meant the user was getting free delivery over £50 and not the £150 as stated on the website. On inspection of the settings.py file I noticed that the free delivery was set to £50 and not £150.  | N/A|
 
 
-![Test 2]()
+![Delivery Bug](documentation/readme_gifs/delivery_bug.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|

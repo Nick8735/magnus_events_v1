@@ -160,7 +160,7 @@ else:
 DEFAULT_IMAGE_URL = f'{STATIC_URL}images/default.png'
 
 # Stripe settings
-FREE_DELIVERY_THRESHOLD = 50
+FREE_DELIVERY_THRESHOLD = 150
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'gbp'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')  # Changed to load from environment variable
