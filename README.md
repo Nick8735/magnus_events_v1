@@ -884,14 +884,14 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+| Delivery Price| User will have free delivery over £150 | Bug has now been corrected and user is able to see that if spending more than £150 there will be free delivery.  | A confirmation should appear to remind the user that they will get free delivery of spending £150, this would give the user more trust in the site and increase the integrity of the website. |
 
 
-![Test 2]()
+![Delivery Price](documentation/readme_gifs/delivery_price.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+| Profile bag memory| When user logs back into account, the bag will still have the last added item that the user had added on the previous visit. | User was able to see bag that was pre-populated with the last visits selection. Toast shows bag on login.    | |
 
 
 ![Test 2]()
