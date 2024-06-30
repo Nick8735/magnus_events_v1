@@ -509,7 +509,7 @@ After the successful processing of an order, the shopper is automatically redire
 <summary>Checkout Success - Desktop</summary>
 <br>
 <img src="documentation/readme_images/order_success.png">
-<details>
+</details>
 
 **Checkout Success Page Components**
 
@@ -543,7 +543,7 @@ A confirmation email is automatically sent to the user's provided email address.
 <summary>Checkout Success - Desktop</summary>
 <br>
 <img src="documentation/readme_images/order_success.png">
-<details>
+</details>
 
 ### Profile Page
 
@@ -600,7 +600,7 @@ Displays past orders with the following details for each order:
 <br>
 <img src="documentation/readme_images/add_image.png">
 </details>
-<details>
+
 
 ### Edit Product Page
 
