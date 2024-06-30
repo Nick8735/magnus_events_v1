@@ -870,7 +870,7 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+|Sort Products |User will be able to sort the products   |    | |
 
 
 ![Test 2]()
