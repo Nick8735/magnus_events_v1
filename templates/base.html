@@ -128,14 +128,70 @@
                 {% endwith %}
             {% endfor %}
         </div>
-    {% endif %}
+        {% endif %}
 
-    {% block page_header %}
-    {% endblock %}
-
-    {% block content %}
-    {% endblock %}
-    {% include 'products/includes/footer.html' %}
+        {% block page_header %}
+        {% endblock %}
+  
+        {% block content %}
+        {% endblock %}
+      </div>
+  
+      <footer class="footer m-0 p-0 bg-light">
+          <div class="container py-3">
+            
+                <div class="container py-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="col-12 mx-0 py-1 py-lg-0 text-center">
+                                <a href="{% url 'home' %}" class="nav-link text-center">
+                                    <h3 class="logo-font text-dark my-0"><strong>Magnus</strong><br>Events</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 offset-md-3 text-center">
+                            <h5 class="text-dark">FOLLOW US</h5>
+                            <div class="col p-0 mb-1">
+                                <a href="https://www.facebook.com/" class="text-decoration-none" target="_blank" rel="noopener"
+                                    aria-label="Follow us on Facebook">
+                                    <i class="fab fa-facebook-square text-dark" aria-hidden="true"></i>
+                                    <span class="text-dark pl-2">Facebook</span>
+                                </a>
+                            </div>
+                            <div class="col p-0 mb-1">
+                                <a href="https://www.instagram.com/" class="text-decoration-none" target="_blank" rel="noopener"
+                                    aria-label="Follow us on Instagram">
+                                    <i class="fab fa-instagram text-dark" aria-hidden="true"></i>
+                                    <span class="text-dark pl-2">Instagram</span>
+                                </a>
+                            </div>
+                            <div class="col p-0 mb-1">
+                                <a href="https://twitter.com/?lang=en" class="text-decoration-none" target="_blank" rel="noopener"
+                                    aria-label="Follow us on Twitter">
+                                    <i class="fab fa-twitter text-dark" aria-hidden="true"></i>
+                                    <span class="text-dark pl-2">Twitter</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mt-2">
+                        <div class="col-12 text-center">
+                            <p class="text-dark">
+                                This website is currently operating in Test Mode for Stripe Payments. Any transactions conducted on
+                                this platform are solely for testing purposes and do not involve actual financial transactions. No
+                                real payments will be processed, and no actual charges will be incurred.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                      </div>
+      </footer>
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
