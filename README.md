@@ -836,10 +836,5 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 ![Edit Product](documentation/readme_gifs/edit_product.gif)
 <br>
 
-## Deployment
-
-For deployment please see the [Deployment](/DEPLOYMENT.md) documentation.
-<br><br>
-
 ## Credits
 
