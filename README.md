@@ -891,24 +891,52 @@ Site utilizes allauth for user account creation and authentication. Allauth is a
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| Profile bag memory| When user logs back into account, the bag will still have the last added item that the user had added on the previous visit. | User was able to see bag that was pre-populated with the last visits selection. Toast shows bag on login.    | |
+| Add profile info| User will log in and add profile details | User was able to login and update profile information.    | If user was able to start on the profile page after logging in I believe the user would spend more time reviewing details are up to date allowing more continuity to the site. |
 
 
-![Test 2]()
-
-|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
-|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
-
-
-![Test 2]()
+![Profile Details](documentation/readme_gifs/profile_details.gif)
 
 |TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
-| |  |    | |
+|Profile details save after logout | Users prfofile details will be still saved in the profile section after login.  | Users details were saved after they logged back in.  | Once the user saves the profile details the information should be presented in an non-editable area. |
 
 
-![Test 2]()
+![Profile Check](documentation/readme_gifs/profile_check.gif)
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| Order Completion| user will complete an order and recieve an order number  | user completed order and recieved an order number with correct delivery address  | Orders could be visable within a toast message constantly until delivered, this would mean the user always has an insight on delivery tracked by the website. |
+
+
+![Order confirmation](documentation/readme_gifs/order_confirmation.gif)
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+|Find Order number | User will need to check order number.  | User was able to check order number confirmation through the profile menu.  | If the user had access to email the company as part of the order confirmation incase the delivery dress is incorrect or the user had moved this would show more compassion for the user and support with orders that could be lost. |
+
+
+![Order Number](documentation/readme_gifs/Order_number_confirm.gif)
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+| Search Bar| Use Search bar to find packages | User was able to use search bar to find certain products.   | Typeahead functionality could be used to improve efficiency for user when inputting details into the search bar.  |
+
+
+![Search Bar](documentation/readme_gifs/search_bar.gif)
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+|Footer | User is able to interact with the footer | User clicked on a social media icon and was taken to the website.   |If contact details were added then this would give the users consistent access to vital information about the company. |
+
+
+![Footer](documentation/readme_gifs/footer.gif)
+
+|TEST                                         |                       WHAT IS EXPECTED TO HAPPEN       | WHAT HAPPENED | WHAT COULD BE IMPROVED |      
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|--------------:|
+|Edit Product | User is able to edit details of a product |  User was able to edit the details for confetti and lower the cost.  |Having tolerances of what could be edited and how much would mitigate some of the impact of any non right first time errors.|
+
+
+![Edit Product](documentation/readme_gifs/edit_product.gif)
 <br>
 
 ## Deployment
